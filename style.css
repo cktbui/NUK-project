@@ -36,7 +36,7 @@ nav a{
 header{
 	background-color: #e8e8e8/*#fc414a*/;
 }
-#triangle{ /* forerste trekant*/
+#triangle{ /* Forerste trekant under logo */
 	width: 0; 
 	height: 0; 
 	border-left: 5em solid transparent;
@@ -51,7 +51,7 @@ header{
 	margin-right:auto;
 	z-index: 2;
 }
-#triangle-large{ /* Bakerste trekant*/
+#triangle-large{ /* Bakerste trekant under logo */
 	width: 0; 
 	height: 0; 
 	border-left: 5.5em solid transparent;
