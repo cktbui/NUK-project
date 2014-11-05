@@ -72,20 +72,14 @@ header{
 body{
 	background-color: #F6F6F6;
 	margin: 0;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-	background: url(cream_dust_@2X.png) ; 
-=======
-	
->>>>>>> FETCH_HEAD
+
 }
 #main{
 	margin: 0 auto;
 	width: 95%;
 	height: auto;
 	
-	
-=======
+
 }
 .main{
 	
@@ -114,6 +108,4 @@ body{
 	color: white;
 
 
-
->>>>>>> Stashed changes
 }
