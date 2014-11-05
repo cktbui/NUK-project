@@ -38,7 +38,7 @@ nav a{
 	z-index: 3;
 }
 header{
-	background-color: #e8e8e8/*#fc414a*/;
+	background-color: #fff/*#fc414a*/;
 }
 #triangle{ /* Forerste trekant under logo */
 	width: 0; 
@@ -47,7 +47,7 @@ header{
 	border-right: 5em solid transparent;
 	position: relative;
 	margin-top: -1.6em;
-	border-top: 5em solid #e8e8e8/*#fc414a*/;
+	border-top: 5em solid #fff/*#fc414a*/;
 	
 	padding:0;
 	display:block;
@@ -70,10 +70,14 @@ header{
 	
 }
 body{
-	background-color: #fff;
+	background-color: #F6F6F6;
 	margin: 0;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	background: url(cream_dust_@2X.png) ; 
+=======
+	
+>>>>>>> FETCH_HEAD
 }
 #main{
 	margin: 0 auto;
