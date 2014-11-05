@@ -23,6 +23,14 @@ nav a{
 	color: black;
 	font-family: raleway, sans;
 }
+.titler{
+	width: 30%;
+	display: inline-block;
+	color: black;
+	font-family: raleway, sans;
+	font-size: 1.2em;
+
+}
 
 .logo{
 	height: 6em;
