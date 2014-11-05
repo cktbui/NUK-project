@@ -7,7 +7,11 @@ nav{
 
 	border-bottom-style: solid;
 	border-bottom-color: #fff;
+<<<<<<< Updated upstream
 	padding: 1.5em 0;
+=======
+	padding: 1em 0;
+>>>>>>> Stashed changes
 	vertical-align: top;
 }
 
@@ -68,6 +72,7 @@ header{
 body{
 	background-color: #fff;
 	margin: 0;
+<<<<<<< Updated upstream
 	background: url(cream_dust_@2X.png) ; 
 }
 #main{
@@ -76,4 +81,35 @@ body{
 	height: auto;
 	
 	
+=======
+}
+.main{
+	
+}
+.box{
+	background:#fc414a;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+
+	width: 25%;
+	padding-top:6%;
+	padding-bottom: 6%; 
+	margin: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+
+	
+
+
+}
+.box a{
+	
+	font-family: raleway, sans;
+	color: white;
+
+
+
+>>>>>>> Stashed changes
 }
