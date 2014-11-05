@@ -1,0 +1,30 @@
+nav{
+/* Navigation bar */
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 1.5em;
+	border-bottom-style: solid;
+	padding: 15px 0;
+	vertical-align: top;
+}
+
+
+nav a{
+	width: 180px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.logo{
+	height: 7em;
+	width: 6em;
+	position: absolute;
+	left:0;
+	top:-1%;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
