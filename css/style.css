@@ -9,9 +9,10 @@ nav{
 	border-bottom-color: #fff;
 
 	padding: 1.5em 0;
-
 	
 
+	
+	background-color: #fff;
 	vertical-align: top;
 }
 
@@ -44,9 +45,6 @@ nav a{
 	margin-left:auto;
 	margin-right:auto;
 	z-index: 3;
-}
-header{
-	background-color: #fff/*#fc414a*/;
 }
 #triangle{ /* Forerste trekant under logo */
 	width: 0; 
@@ -120,7 +118,7 @@ body{
 
 }
 
-.test{
+.lik-linje{
 	display:inline-block;
 }
 
