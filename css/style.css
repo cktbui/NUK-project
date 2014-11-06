@@ -1,0 +1,117 @@
+nav{
+/* Navigation bar */
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+
+	padding: 1.5em 0;
+
+	padding: 1em 0;
+
+	vertical-align: top;
+}
+
+
+nav a{
+	width: 13%;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-family: raleway, sans;
+}
+.titler{
+	width: 30%;
+	display: inline-block;
+	color: black;
+	font-family: raleway, sans;
+	font-size: 1.2em;
+
+}
+
+.logo{
+	height: 6.001em;
+	width: 4.5em;
+	position: absolute;
+	left:0;
+	top:-0.2%;
+	right:0;
+	margin-top: 1%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 3;
+}
+header{
+	background-color: #fff/*#fc414a*/;
+}
+#triangle{ /* Forerste trekant under logo */
+	width: 0; 
+	height: 0; 
+	border-left: 5em solid transparent;
+	border-right: 5em solid transparent;
+	position: relative;
+	margin-top: -1.6em;
+	border-top: 5em solid #fff/*#fc414a*/;
+	
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 2;
+}
+#triangle-large{ /* Bakerste trekant under logo */
+	width: 0; 
+	height: 0; 
+	border-left: 5.5em solid transparent;
+	border-right: 5.5em solid transparent;
+	
+	border-top: 5.5em solid #fc414a;
+	margin-top: -0.2em;
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+body{
+	background-color: #F6F6F6;
+	margin: 0;
+
+}
+#main{
+	margin: 0 auto;
+	width: 95%;
+	height: auto;
+	
+
+}
+.main{
+	
+}
+.box{
+	background:#FF404B;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+
+	width: 25%;
+	padding-top:6%;
+	padding-bottom: 6%; 
+	margin: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+
+
+}
+.box a{
+	
+	font-family: raleway, sans;
+	color: white;
+	text-decoration: none;
+
+
+}
