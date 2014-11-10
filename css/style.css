@@ -169,8 +169,12 @@ body{
 .blader{
 	width: 18%;
 	height: 12em;
-	background-color: red;
+	background-color: white;
 	display: inline-block;
 	margin-bottom: 1em;
 	margin-right: 1em;
+}
+
+.blader img{
+	width: 100%;
 }
