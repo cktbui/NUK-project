@@ -73,7 +73,7 @@ nav a{
 	background-color: white;
 	width: 15em;
 	height: 2em;
-	margin-left:75.3%;
+	margin-left: 60.8em;
 	margin-top: -2em;
 
 }
@@ -83,14 +83,14 @@ body{
 
 }
 #main{
-	margin: 0 auto;
+	margin: auto;
 	width: 95%;
 	height: auto;
 	
 }
 
-.innhold-boks{
-	width: 68%;
+.innhold-boks{ /* hovedboksen som skal ha innholdet */
+	width: 55em;
 	vertical-align:top;
 	margin-top:1.2em;
 	background-color: white;
