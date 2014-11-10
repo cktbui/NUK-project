@@ -88,8 +88,6 @@ body{
 	
 }
 
-<<<<<<< HEAD
-=======
 .innhold-boks{
 	width: 68%;
 	vertical-align:top;
@@ -119,12 +117,7 @@ body{
 
 }
 
-<<<<<<< HEAD
 .lik-linje{ /* setter undertittel og innhold-boks på lik linje */
-=======
->>>>>>> FETCH_HEAD
-.lik-linje{
->>>>>>> origin/master
 	display:inline-block;
 }
 
@@ -132,11 +125,8 @@ body{
 	list-style-type: none;
 	width:18em;
 }
-<<<<<<< HEAD
-.undertittel{ /* for undertittelene */
-=======
-.undertittel{ /* Sidemeny */
->>>>>>> origin/master
+
+.undertittel{ /* for sidemenyen */
 	border-style:solid;
 	border-bottom-width: 1;
 	border-color:#F6F6F6;
