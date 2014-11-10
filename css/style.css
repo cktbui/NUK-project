@@ -96,27 +96,6 @@ body{
 	height: 20em;
 }
 
-.box{
-	background:#61D2D6;
-	display: inline-block;
-	text-align: center;
-	font-size: 2em;
-
-	width: 25%;
-	padding-top:6%;
-	padding-bottom: 6%; 
-	margin: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
-
-}
-.box a{
-	font-family: raleway, sans;
-	color: white;
-	text-decoration: none;
-
-}
-
 
 .lik-linje{
 	display:inline-block;
