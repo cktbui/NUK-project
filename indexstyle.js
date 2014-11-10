@@ -9,4 +9,4 @@ function showMenu(){
 		document.getElementById("second-menu").style.display = "block";
 	else
 		document.getElementById("second-menu").style.display = "none";	
-}
+};
