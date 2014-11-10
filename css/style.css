@@ -73,7 +73,7 @@ nav a{
 	background-color: white;
 	width: 15em;
 	height: 2em;
-	margin-left:67.5em;
+	margin-left:75.3%;
 	margin-top: -2em;
 
 }
@@ -152,9 +152,3 @@ body{
 	text-decoration: none;
  }
 
- .innhold-boks{
-	width: 68%;
-	vertical-align: 9.15cm;
-	background-color: white;
-	height: 20em;
-}
