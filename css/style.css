@@ -73,11 +73,13 @@ nav a{
 
 
 	height: 2em;
-	float:right;
 	display:block;
 	width:100%;
 	margin-bottom:2em;
 
+}
+.sokeboks form{
+	float:right;
 }
 body{
 	background-color: #F6F6F6;
