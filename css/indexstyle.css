@@ -13,6 +13,7 @@ nav{
 	padding: 0.6em 0;
 
 	vertical-align: top;
+	background: white;
 }
 
 
@@ -45,6 +46,25 @@ nav a{
 	margin-right:auto;
 	z-index: 3;
 }
+#second-menu{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	display: none; 
+}
+
+#logo-nede{
+	width:3.5em;
+	height: auto;
+	top:-0.5em;
+}
+/*
+.triangle-main{
+	margin-top: -3em;
+	position: relative;
+}*/
+
 header{
 	background-color: #fff/*#fc414a*/;
 }

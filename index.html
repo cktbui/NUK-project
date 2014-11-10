@@ -3,13 +3,16 @@
 <html>
 	<head>
 		<title>NUK</title>
+
+		<script type="text/javascript" src="indexstyle.js"></script>
+		
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
 		<meta charset="utf-8">
 		
 	</head>
 	<body>
-		<header>
+		<header id="header">
 			<nav>
 				<p class="titler">NORGES UNGE KATOLIKKER</p>
 				
@@ -37,13 +40,26 @@
 		<br>
 		<br>
 		<br>
+		<!--pill som viser at det er noe mer på forsiden-->
 		<div id="triangle-small"></div>
 		<div id="triangle-large"></div>
-
+		<!--menyen som pupper opp når man skroller ned til en vis punkt -->
+		<div id="second-menu">
+			<nav>
+				<a href="">NYHETER</a>
+				<a href="">FOR MEDLEMMER</a>
+				<a href="">BLI MEDLEM</a>
+				<a href=""><img class="logo" id="logo-nede" src="img/logo.png"/></a>
+				<a href="">VÅRE AKTIVITETER</a>
+				<a href="">OM NUK</a>
+				<a href="">KONTAKT OSS</a>
+			</nav>
+			<div id="triangle" class="triangle-main"></div>
+		</div>
 
 
 		<!--forsiden sin 6 nyeste nyhtet bokser-->
-		<div class="nyheter-main">
+		<div class="nyheter-main" id="nyheter-main">
 		<div class="main-box">
 			
 			<a href="#">
