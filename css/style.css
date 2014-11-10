@@ -84,43 +84,46 @@ nav a{
 body{
 	background-color: #F6F6F6;
 	margin: 0;
+	width:100%
 
 }
 #main{
 	margin: auto;
-	width: 95%;
+	width: 90%;
 	height: auto;
 	margin-top:-2em;
+	overflow: hidden;
 	
 }
 
 .innhold-boks{ /* hovedboksen som skal ha innholdet */
 	float:left;
-	width: 72%;
+	width: 75%;
 	background-color: white;
 	height: auto;
 	padding: 2%;
+	display: inline-block;
+	margin-left:1%;
 }
 
 .lik-linje{ /* setter undertittel og innhold-boks på lik linje */
 	display:inline-block;
 	float:left;
+	width:20%;
 }
 
 .under-nav{
 	list-style-type: none;
-	width:15em;
+	width:100%;
 	margin-top: 0;
 	margin-right: 0.2em;
+	padding:0;
 
 }
 
 .undertittel{ /* for sidemenyen */
-/*	border-style:solid;
-	border-bottom-width: 1;
-	border-color:#F6F6F6; */
+	padding-left: 3%;
 	margin-bottom: 0.2em;
-	padding-left:1em;
 	padding-top: 1em;
 	padding-bottom:1em;
 	background-color:#FFF;
