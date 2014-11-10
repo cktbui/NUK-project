@@ -93,7 +93,8 @@ body{
 
 .innhold-boks{
 	width: 68%;
-	vertical-align: 9.15cm;
+	vertical-align:top;
+	margin-top:1.2em;
 	background-color: white;
 	height: 20em;
 }
