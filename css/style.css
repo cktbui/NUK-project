@@ -10,8 +10,6 @@ nav{
 
 	padding: 1.5em 0;
 	
-
-	
 	background-color: #fff;
 	vertical-align: top;
 }
@@ -107,14 +105,11 @@ body{
 	padding-left: 2%;
 	padding-right: 2%;
 
-
 }
 .box a{
-	
 	font-family: raleway, sans;
 	color: white;
 	text-decoration: none;
-
 
 }
 
@@ -140,14 +135,11 @@ body{
 
 .undertittel:hover{
 	background-color: #A80000;
-	
-	
 }
 .link-font-style:hover{
 	color:white;
 }
 .link-font-style{
-
 	font-size:1em;
 	font-family: raleway, sans;
 	color: Black;
