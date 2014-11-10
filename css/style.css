@@ -96,7 +96,7 @@ body{
 	float:left;
 	width: 72%;
 	background-color: white;
-	height: 20em;
+	height: auto;
 	padding: 2%;
 }
 
@@ -141,7 +141,36 @@ body{
 
 .aktuelt {
 	width: 100%;
-	height: 15em;
+	height: 12em;
 	background-color: yellow;
+	margin-bottom: 1em;
 
+}
+
+.for-lokallag {
+	width: 45%;
+	height: 12em;
+	background-color: blue;
+	margin-right: 1em;
+	display: inline-block;
+	margin-bottom: 1em;
+
+}
+
+.for-leir{
+	width: 45%;
+	height: 12em;
+	background-color: green;
+	display: inline-block;
+	margin-bottom: 1em;
+
+}
+
+.blader{
+	width: 18%;
+	height: 12em;
+	background-color: red;
+	display: inline-block;
+	margin-bottom: 1em;
+	margin-right: 1em;
 }
