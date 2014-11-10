@@ -71,9 +71,10 @@ nav a{
 
 .sokeboks {
 	background-color: white;
-	width: 10em;
-	height: 3em;
-	float: right;
+	width: 15em;
+	height: 2em;
+	margin-left:67.5em;
+	margin-top: -2em;
 
 }
 body{
