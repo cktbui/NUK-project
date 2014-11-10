@@ -110,6 +110,7 @@ body{
 	width:15em;
 	margin-top: 0;
 	margin-right: 0.2em;
+
 }
 
 .undertittel{ /* for sidemenyen */
@@ -140,7 +141,7 @@ body{
 
 .aktuelt {
 	width: 100%;
-	height: 5em;
+	height: 15em;
 	background-color: yellow;
 
 }
