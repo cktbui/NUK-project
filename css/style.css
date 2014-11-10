@@ -31,7 +31,7 @@ nav a{
 
 }
 
-.logo{
+.logo{ /* logoen sin kode */
 	height: 6.001em;
 	width: 4.5em;
 	position: absolute;
@@ -120,7 +120,7 @@ body{
 
 }
 
-.lik-linje{
+.lik-linje{ /* setter undertittel og innhold-boks på lik linje */
 	display:inline-block;
 }
 
@@ -128,7 +128,7 @@ body{
 	list-style-type: none;
 	width:18em;
 }
-.undertittel{
+.undertittel{ /* for undertittelene */
 	border-style:solid;
 	border-bottom-width: 1;
 	border-color:#F6F6F6;
