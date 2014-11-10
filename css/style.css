@@ -70,11 +70,13 @@ nav a{
 }
 
 .sokeboks {
-	background-color: white;
-	width: 15em;
+
+
 	height: 2em;
-	margin-left: 60.8em;
-	margin-top: -2em;
+	float:right;
+	display:block;
+	width:100%;
+	margin-bottom:2em;
 
 }
 body{
@@ -86,13 +88,13 @@ body{
 	margin: auto;
 	width: 95%;
 	height: auto;
+	margin-top:-2em;
 	
 }
 
 .innhold-boks{ /* hovedboksen som skal ha innholdet */
+	float:left;
 	width: 72%;
-	vertical-align:top;
-	margin-top:1.2em;
 	background-color: white;
 	height: 20em;
 	padding: 2%;
@@ -100,17 +102,21 @@ body{
 
 .lik-linje{ /* setter undertittel og innhold-boks på lik linje */
 	display:inline-block;
+	float:left;
 }
 
 .under-nav{
 	list-style-type: none;
 	width:15em;
+	margin-top: 0;
+	margin-right: 0.2em;
 }
 
 .undertittel{ /* for sidemenyen */
-	border-style:solid;
+/*	border-style:solid;
 	border-bottom-width: 1;
-	border-color:#F6F6F6;
+	border-color:#F6F6F6; */
+	margin-bottom: 0.2em;
 	padding-left:1em;
 	padding-top: 1em;
 	padding-bottom:1em;
