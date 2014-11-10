@@ -148,22 +148,22 @@ body{
 	width: 100%;
 	height: 12em;
 	background-color: yellow;
-	margin-bottom: 1em;
+	margin-bottom: 2%;
 
 }
 
 .for-lokallag {
-	width: 45%;
+	width: 48%;
 	height: 12em;
 	background-color: blue;
-	margin-right: 1em;
+	margin-right: 2%;
 	display: inline-block;
-	margin-bottom: 1em;
+	margin-bottom: 2%;
 
 }
 
 .for-leir{
-	width: 45%;
+	width: 48%;
 	height: 12em;
 	background-color: green;
 	display: inline-block;
