@@ -22,14 +22,7 @@ nav a{
 	color: black;
 	font-family: raleway, sans;
 }
-.titler{
-	width: 30%;
-	display: inline-block;
-	color: black;
-	font-family: raleway, sans;
-	font-size: 1.2em;
 
-}
 
 .logo{ /* logoen sin kode */
 	height: 6.001em;
@@ -44,6 +37,7 @@ nav a{
 	margin-right:auto;
 	z-index: 3;
 }
+
 #triangle{ /* Forerste trekant under logo */
 	width: 0; 
 	height: 0; 
@@ -59,6 +53,7 @@ nav a{
 	margin-right:auto;
 	z-index: 2;
 }
+
 #triangle-large{ /* Bakerste trekant under logo */
 	width: 0; 
 	height: 0; 
@@ -76,7 +71,9 @@ nav a{
 
 .sokeboks {
 	background-color: white;
-	width: 2em;
+	width: 10em;
+	height: 3em;
+	float: right;
 
 }
 body{
@@ -91,6 +88,8 @@ body{
 	
 }
 
+<<<<<<< HEAD
+=======
 .innhold-boks{
 	width: 68%;
 	vertical-align:top;
@@ -120,7 +119,12 @@ body{
 
 }
 
+<<<<<<< HEAD
 .lik-linje{ /* setter undertittel og innhold-boks på lik linje */
+=======
+>>>>>>> FETCH_HEAD
+.lik-linje{
+>>>>>>> origin/master
 	display:inline-block;
 }
 
@@ -128,7 +132,11 @@ body{
 	list-style-type: none;
 	width:18em;
 }
+<<<<<<< HEAD
 .undertittel{ /* for undertittelene */
+=======
+.undertittel{ /* Sidemeny */
+>>>>>>> origin/master
 	border-style:solid;
 	border-bottom-width: 1;
 	border-color:#F6F6F6;
@@ -152,3 +160,10 @@ body{
 	color: Black;
 	text-decoration: none;
  }
+
+ .innhold-boks{
+	width: 68%;
+	vertical-align: 9.15cm;
+	background-color: white;
+	height: 20em;
+}
