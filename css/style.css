@@ -20,7 +20,7 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-	font-family: raleway, sans;
+	font-family: raleway, arial;
 }
 
 
@@ -186,7 +186,7 @@ body{
 }
 .link-style{
 	font-size:1em;
-	font-family: raleway, areal;
+	font-family: raleway, arial;
 	color: Black;
 	text-decoration: none;
  }
@@ -237,6 +237,7 @@ body{
 	margin-right: 0;
 }
 
+
 .sokeknapp{
 	border-style: solid;
 	padding-left: 1em;
@@ -244,5 +245,57 @@ body{
 }
 .sokefelt{
 }
+
+
+.nyheter-box{
+	background: #F6F6F6;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	width: 31%;
+	margin: 1%;
+	padding: 0;
+	height: 11em;
+	overflow: hidden;
+	position: relative;
+
+}
+.nyheter-box .caption{
+	position: absolute; 
+	width: 100%; 
+	height: auto; 
+	bottom: 0; left: 0;
+	 color: #fff; 
+	 background: black; 
+	 text-align:center; 
+	 font-weight:bold; 
+	 opacity: 0.7;
+	 font-family: raleway,arial; 
+}
+
+.nyheter-box .caption p{
+	margin: 0;
+	padding: 0.5em;
+}
+.main-box{
+	
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5em;
+	
+
+}
+
+.nyheter-box img{
+	width: 100%;
+	height: auto;
+
+}
+
+a{
+	font-family: raleway, arial; 
+	text-decoration: none;
+}
+
 
 

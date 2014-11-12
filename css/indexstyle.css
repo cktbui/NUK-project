@@ -8,9 +8,7 @@ nav{
 	border-bottom-style: solid;
 	border-bottom-color: #fff;
 
-
-
-	padding: 0.6em 0;
+	padding: 1em 0;
 
 	vertical-align: top;
 	background: white;
@@ -22,13 +20,13 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-	font-family: raleway, sans;
+	font-family: raleway, arial;
 }
 .titler{
 	width: 30%;
 	display: inline-block;
 	color: black;
-	font-family: raleway, sans;
+	font-family: raleway, arial;
 	font-size: 1.2em;
 
 }
@@ -51,7 +49,8 @@ nav a{
 	top:0;
 	left:0;
 	width: 100%;
-	display: none; 
+	display: none;
+	z-index: 10;
 }
 
 #logo-nede{
@@ -84,12 +83,12 @@ header{
 	z-index: 2;
 }
 #triangle-small{
-	 width: 0; 
+	width: 0; 
 	height: 0; 
 	border-left: 1em solid transparent;
 	border-right: 1em solid transparent;
 	position: relative;
-	margin-top: -2em;
+	margin-top: 1em;
 	border-top: 1em solid #F6F6F6;
 	
 	padding:0;
@@ -111,6 +110,7 @@ header{
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: 1em;
+	z-index: 1;
 	
 }
 body{
@@ -118,17 +118,24 @@ body{
 	margin: 0;
 
 }
-#main{
+.main{
 	margin: 0 auto;
 	width: 95%;
 	height: auto;
-	
+	margin-bottom: 5em;
+
 
 }
-.main,.nyheter-main{
+
+.top-box {
+	width: 100%;
+}
+
+
+.nyheter-main{
+	margin-top: 2em;
 	text-align: center;
 }
-
 
 
 .box{
@@ -143,12 +150,9 @@ body{
 	padding-left: 0%;
 	padding-right: 0%;
 	
-
-
-
 }
+
 a{
-	
 	font-family: raleway, arial; 
 	color: white; 
 	text-decoration: none;
@@ -160,10 +164,6 @@ a{
 	font-size: 1.5em;
 	width: 31%;
 	margin: 1%;
-	/*padding-top:8%;
-	padding-bottom: 8%; 
-	padding-left: 3%;
-	padding-right: 3%;*/
 	padding: 0;
 	height: 11em;
 	overflow: hidden;
@@ -176,21 +176,15 @@ a{
 	width: 100%; 
 	height: auto; 
 	bottom: 0; left: 0;
-	 color: #fff; 
-	 background: black; 
-	 text-align:center; 
-	 opacity: 0.7;
+	color: #fff; 
+	background: black; 
+	text-align:center; 
+	opacity: 0.7;
 }
 
 .nyheter-box .caption p{
 	margin: 0;
 	padding: 0.5em;
-}
-.main-box{
-	
-	display: inline-block;
-	width: 95%;
-
 }
 
 .nyheter-box img{
