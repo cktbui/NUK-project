@@ -20,7 +20,7 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-	font-family: raleway, sans;
+	font-family: raleway, arial;
 }
 
 
@@ -139,7 +139,7 @@ body{
 }
 .link-font-style{
 	font-size:1em;
-	font-family: raleway, sans;
+	font-family: raleway, arial;
 	color: Black;
 	text-decoration: none;
  }
