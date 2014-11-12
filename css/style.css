@@ -160,6 +160,7 @@ body{
 }
 .under_undertittel{
 	background: #ededed;
+	transition: background-color 0.5s;
 }
 
 .undermeny{
