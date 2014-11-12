@@ -200,14 +200,8 @@ body{
 }
 
 
-/*
-
-
-
-
-*/
 .nyheter-box{
-	background:#A80000;
+	background: #F6F6F6;
 	display: inline-block;
 	text-align: center;
 	font-size: 1.5em;
