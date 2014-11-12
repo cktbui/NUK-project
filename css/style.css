@@ -190,4 +190,12 @@ body{
 	margin-right: 0;
 }
 
+.sokeknapp{
+	border-style: solid;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.sokefelt{
+}
+
 
