@@ -81,6 +81,24 @@ nav a{
 .sokeboks form{
 	float:right;
 }
+.sokeboks button, .sokeboks input{
+	padding: 0.5em;
+}
+
+button{
+	border: none;
+	background: #A80000;
+	color: white;
+	font-family: raleway, arial;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+
+button:active{
+	background: #e30000;
+}
+
 body{
 	background-color: #F6F6F6;
 	margin: 0;
