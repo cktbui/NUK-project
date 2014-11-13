@@ -267,8 +267,15 @@ body{
 .sokefelt{
 }
 
+/*
 
-.nyheter-box{
+
+
+
+*/
+
+.nyheter-box{/*nyhet bokser  */
+	/*background:#A80000;*/
 	background: #F6F6F6;
 	display: inline-block;
 	text-align: center;
@@ -281,7 +288,7 @@ body{
 	position: relative;
 
 }
-.nyheter-box .caption{
+.nyheter-box .caption{/*nyheter sin bilde tekst (caption)*/
 	position: absolute; 
 	width: 100%; 
 	height: auto; 
@@ -294,11 +301,11 @@ body{
 	 font-family: raleway,arial; 
 }
 
-.nyheter-box .caption p{
+.nyheter-box .caption p{/* det tilhører til bildetekst på nyhetboksene */
 	margin: 0;
 	padding: 0.5em;
 }
-.main-box{
+.main-box{/*Det er en boks som innholder alle nyhetboksene*/
 	
 	display: inline-block;
 	width: 100%;
@@ -307,15 +314,30 @@ body{
 
 }
 
-.nyheter-box img{
-	width: 100%;
+/*det er står for nyhetsartikklens bilde og tekskt⇓⇓ */
+ 
+.nyheter-box img{/*nyhetboksene sin bilder tag*/
+	width: 100%;	
 	height: auto;
 
+
+}
+.nyhetsbilde img{/* nyhetensbildet på nyhetssiden */
+	border: 1px solid black; 
+	display: inline-block;
+	width: 75%;
+
+}
+.nyhetstekst p{
+	/*border: 2px solid red;*/
+	ont-family: raleway, arial; 
+	font-size: 1.2em;
 }
 
 a{
 	font-family: raleway, arial; 
 	text-decoration: none;
+
 }
 
 

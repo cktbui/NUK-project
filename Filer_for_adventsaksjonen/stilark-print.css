@@ -1,0 +1,33 @@
+#sidetopp, #kolonne1wrap, #kolonne1, #bunnpanel, .sidebunn, .jdGallery, .slideInfoZone, #ext-thumbnails, .carouselContainer {
+	display: none;
+}
+/*
+body #sidebunn {
+	display:static;
+}
+#sidebunn img {
+	position: absolute;
+	top: 10px;
+	border: 1px solid green;
+}
+*/
+.printlogo {
+	display: block;
+}
+body #container {
+	padding-left: 120px;
+	top:0;
+}
+body #sentrering {
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+body #kolonne2wrap  {
+}
+body #kolonne3wrap {
+}
+body #container .column {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
