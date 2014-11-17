@@ -1,0 +1,629 @@
+#navcontainer ul {
+	margin-left: 0;
+}
+#navlist {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#navlist .subnavlist li {
+	margin-top: 4px;
+	list-style: square outside;
+	color: #888888;
+}
+#navlist .subnavlist li {
+	margin-left:16px;
+}
+#navlist li {
+	margin: 14px 0 0;
+}
+
+#navlist a:hover {
+	background-color: #dddddd;
+	color: #005105;
+	text-shadow:-2px 1px 2px #CCCCCC; 
+}
+#navlist a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #bbb;
+	display: block;
+}
+
+#navlist li.current, 
+#navlist ul li.subcurrent,
+.csc-menu .current {
+	font-weight: bold;
+}
+#navlist .current li {
+	font-weight: normal;
+}
+#navlist .subnavlist li a:hover {
+	background-color: #eee;
+}
+#navlist .subnavlist li a {
+	background-color: transparent;
+	border-bottom: none;
+}
+/*
+#navlist .subnavlist li {
+	margin-top: 4px;
+	font-weight: normal;
+	list-style:none outside none;
+}
+*/
+#sidebunn .csc-sitemap li {
+	float:left;
+	width:130px;
+	list-style:none outside none;
+	font-size:smaller;
+}
+
+#sidetopp {
+	width: 930px; /* Matcher sidetopp-fg bredde+padding */
+	height: auto;
+	margin:0 auto -240px;
+	padding:0;
+	background: none;
+	position: relative;
+}
+#sidetopp-fg {
+	color:#333333;
+	background: url(ressurser/topp.jpg) top center no-repeat;
+	/* width: 1079px;*/
+	width: 830px; /* total bredde minus padding */
+	padding: 0 50px;
+	height: 481px;
+/*	margin:0 auto -170px;*/
+	position: relative;
+	z-index: 2;
+}
+#sidetopp-bg {
+	color:#FFF;
+	background: url(ressurser/helebakgrunnen.jpg) top center no-repeat;
+	width: 2099px;
+	padding: 0;
+	height: 479px;
+	position: absolute;
+	left: -703px; /* fra ytterkant av forgrunnsgrafikken til bakgrunnsgrafikkens venstre kant */
+	z-index: 1;
+
+}
+#sidebunn {
+	background: url(ressurser/bunn.jpg) top center no-repeat #A7A5A4;
+	/* width: 1079px;*/
+	width: 830px;
+	padding: 70px 50px 0; /* Toppadding omvendt av margin */
+	height: 176px; /* Billedhøyde minus padding */
+	position: relative;
+	margin-top: -70px;
+	z-index: 5;
+	padding-bottom: 70px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 12px;
+}
+
+#nostenokkel {
+	font-size:11px;
+	left:90px;
+	position:relative;
+	top:-250px;
+}
+
+body {
+	font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+	font-size:12px; /* også .news-single-item h2 */
+	background: url(ressurser/bggrad.gif) top left repeat-x #42789C;
+	margin:0;
+	padding:0;
+}
+table {
+	font-size:12px;
+}
+td {
+	padding: 1px 5px 1px 3px;
+}
+td p {
+	margin:0;
+	padding:0;
+}
+#sentrering {
+	padding: 0 50px; /* Fylle opp utenfor innholds-feltet (Bredden kommer via TS */
+	background: url(ressurser/midt.png) center repeat-y;
+	/*background-color: #F3F3F3;*/
+	position: relative;
+	z-index: 10;
+	min-height:470px;
+}
+#kolonne1 { 
+	background-color: transparent;
+}
+#kolonne3 {
+	background-color: transparent;
+}
+#kolonne2 {
+	background-color: transparent;
+}
+
+.news-single-item h2 {
+	font-size: 14px;
+}
+h2 a, h2 a:visited {
+	text-decoration:none;
+	color: #111111;
+}
+
+h1, h2 {
+	text-shadow:-2px 1px 3px #CCCCCC;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-size: 18px;
+}
+h2.csc-firstHeader, h3.csc-firstHeader {
+	margin-top: 0;
+}
+p, dt, dd, li {
+	line-height: 17px;
+}
+a p {
+	color: black;
+	text-decoration: none;
+}
+a {
+	color: #427FAB;
+}
+a:visited {
+	color: #000551;
+}
+
+h2 a:hover, a:hover, #sidetopp .csc-menu a:hover {
+	color: #3A6F21;
+	text-shadow:-2px 1px 2px #CCCCCC; 
+}
+
+.news-latest-container img, .news-latest-container a img, .news-single-item a img {
+	border: 1px #666666 solid;
+}
+
+#sidetopp-fg h1 {
+	position: absolute;
+	right:90px;
+	top:95px;
+	margin:0;
+	padding:0;
+	color: #ffffff;
+	text-shadow:-2px 1px 3px #444444;
+}
+
+#sidetopp-fg p {
+	text-shadow: -2px 1px 2px #888888;
+	position: absolute;
+	right:90px;
+	top:140px;
+	margin:0;padding:0;
+}
+#sidetopp .csc-menu {
+	position: absolute;
+	padding:0;
+	margin: 0;
+	white-space: nowrap;
+	left:156px;
+	top:177px;
+	width:710px; /* Justeres ettersom posisjonen endrer seg; må gå til cirka et pent sted langs høyremargen */
+	overflow: clip;
+}
+
+#sidetopp .csc-menu li {
+	display: inline;
+	list-style-type: none;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+#sidetopp .csc-menu li.current {
+	margin-bottom: 0px;
+	margin-top: 0px;
+    border-bottom: 1px solid #3E6327;
+    border-top: 1px solid #3E6327;
+  	background: none no-repeat scroll 0 0 rgba(105, 154, 64, 0.1);
+}
+#sidetopp .csc-menu a {
+	color: white;
+	padding: 3px 10px;
+}
+
+#sidetopp .csc-menu a:link, #sidetopp .csc-menu  a:visited
+{
+	color: #333333;
+	text-shadow: -2px 1px 2px #aaaaaa;
+	text-decoration: none;
+}
+#sidetopp .csc-menu  a:hover {
+	color: #31601A;
+	text-shadow:-2px 1px 2px #60B735; 
+}
+
+
+#kolonne3 .csc-menu-4 dd {
+	margin-left: 0;
+}
+
+#kolonne3 .csc-menu-4 dt {
+	font-weight: bold;
+}
+
+ul {
+	padding-left:0px;
+	margin-left:16px;
+	list-style: disc outside none;
+}
+li {
+	padding: 0;
+	margin: 0;
+}
+.news-single-item h1 {
+	clear: both;
+}
+
+.news-latest-item h2 {
+	margin: 3px 0 0;
+}
+.news-latest-item p {
+	margin: 0 0 20px;
+	color: #333333;
+}
+.news-latest-item img + h2 {
+/*	position: relative;
+	top: -30px;
+	background-color: rgba(255,255,255,0.6);
+*/
+}
+
+.news-list-item {
+	margin-top: 18px;
+}
+.news-list-date {
+/*	background: url(ressurser/listetittelstrek.gif) top center repeat-y;*/
+	padding:2px;
+}
+.news-list-item h2 {
+	margin: 2px 0;
+	/*border-bottom: 1px solid #4B7FAE;*/
+	border-bottom: 1px solid #666666;
+}
+.news-list-item p {
+	margin-top: 0;
+	color: #444444;
+}
+.news-list-item .news-list-date {
+	display: none;
+	text-align: right;
+	color: #333333;
+	line-height: 80%;
+	font-size:80%;
+	margin: 0;
+}
+
+.news-single-item .forfatter_wrap {
+	height: 66px;
+	position:relative;
+	border-bottom: 1px solid #999999;
+}
+.news-single-item .forfatter {
+	position:absolute;
+	bottom:3px;
+	right:3px;
+	margin-left: 48px;
+}
+.news-single-item .dato {
+	float: left;
+	width:26px;
+	border: 1px solid #999999;
+	padding: 2px 3px;
+	color: #333333;
+}
+.news-single-item .aar {
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	width: 26px;
+}
+.news-single-item .mnd {
+	display: block;
+	text-align: center;
+	width: 26px;
+}
+.news-single-item .dag {
+	display: block;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	width: 26px;
+}
+
+#kolonne3 {
+	color: #333333;
+}
+#footer {
+	padding: 20px 5px 10px;
+}
+#footer a {
+	color: black;
+}
+#sidebunn .printlogo {
+	float: left;
+	padding: 20px 10px 0 20px;
+	display:block;
+	position: static;
+}
+#navcontainer, #bunnpanel .tx-msfootermenu-pi1,
+#kolonne3 .tx-cal-controller dd {
+	font-size: 12px;
+}
+#kolonne3 .tx-cal-controller dd {
+	margin:0;
+	padding:0;
+}
+.breadcrumb-class a {
+	color: #333333;
+	text-decoration: none;
+	
+}
+hr.clearer {
+	border:0 none;
+	clear:left;
+	height:0;
+	margin:0 !important;
+	visibility:hidden;
+	width:100%;
+}
+
+.sv-img-big,
+.sv-img-small-wrapper {
+	float: left;
+}
+.sv-img-small-wrapper img {
+	margin-left:-1px;
+}
+.news-single-imgcaption {
+	line-height:10px;
+	font-size: 10px;
+	color: #444444;
+	background-color: #e6e6e6;
+}
+#footer .tx-rscontentcolumn-pi1 {
+	
+}
+div.tx-rscontentcolumn-pi1 {
+	overflow:hidden;
+	padding-top: 3px;
+}
+
+div.tx-rscontentcolumn-pi1 div {
+     vertical-align:top;    
+} 
+
+div.tx-rscontentcolumn-pi1 div.leftcol {
+    padding-right:5px;
+    width:185px;    
+    white-space:normal;    
+    float:left; 
+}  
+
+div.tx-rscontentcolumn-pi1 div.rightcol {
+    padding-left:5px;    
+    width:185px;    
+    white-space:normal;    
+    float:left; 
+} 
+
+div.tx-rscontentcolumn-pi1 hr { 	
+	border:0px none; 	
+	width:100%; 	
+	height:0px; 	
+	visibility:hidden; 	
+	clear:left; 	
+	margin:0px !important; 
+} 
+
+div.tx-rscontentcolumn-pi1 div.threeleftcol {
+    padding:1%;    
+    width:31%;    
+    white-space:normal;    
+    float:left; 
+} 
+
+div.tx-rscontentcolumn-pi1 div.threemiddlecol {
+    padding:1%;    
+    width:31%;    
+    white-space:normal;    
+    float:left; 
+}   
+
+div.tx-rscontentcolumn-pi1 div.threerightcol {
+    padding:1%;   
+    width:31%;    
+    white-space:normal;    
+    float:left; 
+}
+
+
+div.tx_wecstaffdirectory_pi1 .pluginSection .entries li div.leftSide {
+	margin-left: 0;
+}
+div.tx_wecstaffdirectory_pi1 .pluginSection .entries li div.rightSide {
+	width: 235px;
+}
+div.tx_wecstaffdirectory_pi1 .pluginSection .entries li div.extremeRight {
+	width: 235px;
+}
+div.tx_wecstaffdirectory_pi1 .entries li ul li {
+	display: list-item;
+}
+div.tx_wecstaffdirectory_pi1 .entries li .smText li {
+	line-height: 12px;
+}
+div.tx_wecstaffdirectory_pi1 .entries li .smText p {
+	margin-top:1px;
+	margin-bottom:2px;
+}
+div.tx_wecstaffdirectory_pi1 .entries li .photoSmallDisplay {
+
+}
+#bunnpanel {
+/*	background-color: #B0CAC9;
+    border-top: 1px solid #666666;
+    */
+    display: none;
+}
+
+#bunnpanel .tx-msfootermenu-pi1 {
+	margin-bottom: 0;
+}
+
+.tx-msfootermenu-pi1 a {
+	color: #333333;
+	text-decoration: none;
+}
+
+
+.macinabanners img {
+	border: 0;
+}
+/* RG SMOOTHGALLERY */
+/* div with the gallery inside */
+#ext-thumbnails{
+  text-align:center;
+  margin:0;
+  width:195px;
+  padding:0px;
+}
+
+/* div around the imgs */
+.carouselWrapper {
+
+}
+
+/* single thumbnail */
+.thumbnail{
+  float:left;
+  padding:4px;
+  border:1px solid #ccc;
+  background:#fff;
+  margin:2px;
+}
+
+/* label = title of an image */
+.label {
+	display:none;
+  font-weight:bold;
+}
+
+/* number of the image */
+.number {
+  font-weight:normal;
+  font-style:italic;
+}
+
+/* /RGSMOOTHGALLERY */
+#userinfo {
+    color: #666666;
+    position: absolute;
+    right: 90px;
+    text-shadow: -2px 1px 3px #AAAAAA;
+    top: 47px;
+    z-index: 6;
+}
+#sokeboks {
+	height:25px;
+	right:90px;
+	position:absolute;
+	top:63px;
+	width:210px;
+	z-index:4;
+}
+
+#sokeboks input {
+border: none;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+#sokeboks div.tx-macinasearchbox-pi1 {
+	float:right;
+}
+
+div .tx-rgsmoothgallery-pi1 {
+	margin-top:24px;
+	background: none no-repeat scroll center #E9EFF1;
+}
+div .jdGallery .slideElement {
+	background-color: #E9EFF1;
+}
+/* Calendar Base */
+
+.tx-rscontentcolumn-pi1 .tx-cal-controller dl {
+	margin: 0;
+}
+
+p.sitatboks {
+	float: right;
+	font-family: georgia,serif;
+	font-size: x-large;
+	font-style: italic;
+	margin-right: -120px;
+	padding-left: 20px;
+	width: 210px;
+}
+
+.printlogo {
+	position: absolute;
+	top:0;
+	left:-85px;
+	display: none;
+}
+
+/****************************************************************************************
+# Default css file for content edited with htmlArea RTE
+#
+# Defines a few class selectors that can be simply taken as examples by anyone who needs to configure the RTE.
+# This css file is referenced by property RTE.default.contentCSS in the default configuration of htmlArea RTE.
+#
+# TYPO3 SVN ID: $Id: default.css 6539 2009-11-25 14:49:14Z stucki $
+# ***************************************************************************************/
+
+/* Left, center, right and justify alignment of text in block elements*/
+p.align-left, td.align-left, th.align-left, h1.align-left, h2.align-left, h3.align-left, h4.align-left, h5.align-left, h6.align-left, div.align-left, address.align-left { text-align: left; }
+p.align-center, td.align-center, th.align-center, h1.align-center, h2.align-center, h3.align-center, h4.align-center, h5.align-center, h6.align-center, div.align-center, address.align-center { text-align: center; }
+p.align-right, td.align-right, th.align-right, h1.align-right, h2.align-right, h3.align-right, h4.align-right, h5.align-right, h6.align-right, div.align-right, address.align-right { text-align: right; }
+p.align-justify, td.align-justify, th.align-justify, h1.align-justify, h2.align-justify, h3.align-justify, h4.align-justify, h5.align-justify, h6.align-justify, div.align-justify, address.align-justify { text-align: justify; }
+
+/* Two frame examples taken from the example CSS file of CSS Styled Content extension and applied to p and table block elements.*/
+p.csc-frame-frame1, table.csc-frame-frame1 { background-color: #2F4257; padding: 2px 4px 2px 4px; border: 1px solid #333333; color: #dddddd;}
+p.csc-frame-frame2, table.csc-frame-frame2 { background-color: #4B7FAE; padding: 2px 4px 2px 4px; border: 1px solid #333333; color: #ffffff;}
+
+/* Bullet styles for unordered lists.*/
+ul.component-items { color: #186900; list-style-type: circle; }
+ul.action-items { color: #8A0020; list-style-image: url(img/red_arrow_bullet.gif); }
+
+/* Numbering styles for ordered lists.*/
+ol.component-items-ordered { color: #10007B; list-style-type: lower-roman; }
+ol.action-items-ordered { color: #8A0020; list-style-type: lower-greek; }
+
+/* Three inline text colors taken from the color scheme of CSS Styled Content extension.*/
+span.important { color: #8A0020; }
+span.name-of-person { color: #10007B; }
+span.detail { color: #186900; }
+
+/* Selectors for the default configuration of the link accessibity feature.*/
+a.external-link {}
+a.external-link-new-window {}
+a.internal-link {}
+a.internal-link-new-window {}
+a.download {}
+a.mail {}
+
+/* Default selector for indentation.*/
+div.indent { margin-left: 2em; }
