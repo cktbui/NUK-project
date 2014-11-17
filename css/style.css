@@ -470,6 +470,25 @@ table{
 	font-size: 0.6em;
 }
 
+
+/*kontakt oss siden */
+.kontakt-innhold{
+	border: 1px solid red;
+	text-decoration: none;
+	float: left;
+	font-family: raleway, arial;
+	width:45%;
+
+}
+.bilde{
+	float: right;
+	border: 1px solid green;
+	width: 50%;
+}
+
+
+
+
 @media all and (max-width: 480px) {
 
 	body{
