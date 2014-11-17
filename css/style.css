@@ -221,7 +221,7 @@ body{
 }
 
 .for-lokallag {
-	width: 48.5%;
+	width: 49%;
 	height: 10em;
 	margin-right: 1%;
 	margin-bottom: 2%;
@@ -234,7 +234,7 @@ body{
 
 }
 
-.for-lokallag p, .for-leir p{
+.for-lokallag p, .for-leir p, .retrett p, .ledertrening p{
 	font-family: raleway, arial;
 	color: #fff;
 	font-size: 2em;
@@ -253,6 +253,34 @@ body{
 	padding-bottom: 0%; 
 	padding-left: 0%;
 	padding-right: 0%;
+
+}
+
+.retrett{
+	width: 48.5%;
+	height: 10em;
+	margin-right: 1%;
+	margin-bottom: 2%;
+	display: inline-block;
+	background-color: #A80000;
+	padding-top:6%;
+	padding-bottom: 0%; 
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.ledertrening{
+	width: 48.5%;
+	height: 10em;
+	margin-right: 1%;
+	margin-bottom: 2%;
+	display: inline-block;
+	background-color: #A80000;
+	padding-top:6%;
+	padding-bottom: 0%; 
+	padding-left: 0%;
+	padding-right: 0%;
+	
 
 }
 
