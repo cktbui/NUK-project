@@ -367,6 +367,7 @@ body{
 	height: 11em;
 	overflow: hidden;
 	position: relative;
+	vertical-align: middle;
 
 }
 .nyheter-box .caption{/*nyheter sin bilde tekst (caption)*/
