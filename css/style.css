@@ -214,9 +214,23 @@ body{
 
 .aktuelt {
 	width: 100%;
-	height: 12em;
+	height: 10em;
 	background-color: yellow;
 	margin-bottom: 2%;
+	background-image: url(../for-medlemmer/AA_ID_x6.jpg);
+	background-size: auto 100%;
+	padding-top: 6%;
+	padding-bottom: 0%; 
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.aktuelt p{
+	font-family: raleway, arial;
+	color: black;
+	font-size: 2em;
+	text-transform: uppercase;
+	vertical-align: top;
+	text-align: center;
 
 }
 
@@ -234,7 +248,7 @@ body{
 
 }
 
-.for-lokallag p, .for-leir p, .retrett p, .ledertrening p{
+.for-lokallag p, .for-leir p, .ledertrening p{
 	font-family: raleway, arial;
 	color: #fff;
 	font-size: 2em;
@@ -262,20 +276,29 @@ body{
 	margin-right: 1%;
 	margin-bottom: 2%;
 	display: inline-block;
-
+	background-color: red;
 	padding-top:6%;
 	padding-bottom: 0%; 
 	padding-left: 0%;
 	padding-right: 0%;
-	background-image: url(for-medlemmer/retrett.JPG);
-
-
+	background-image: url(../for-medlemmer/retrett.JPG);
+	background-size: 100% auto;
 }
+
+.retrett p{
+	font-family: raleway, arial;
+	color: black;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
 
 .ledertrening{
 	width: 48.5%;
 	height: 10em;
-	margin-right: 1%;
+	margin-left: 1%;
 	margin-bottom: 2%;
 	display: inline-block;
 	background-color: #A80000;
