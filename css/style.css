@@ -13,7 +13,15 @@ nav{
 	background-color: #fff;
 	vertical-align: top;
 }
+#iconmeny{
+	display: none;
 
+}
+#sidebilde{
+	display: none;
+	height: 0em;
+	width:0em;
+}
 
 nav a{
 	width: 13%;
@@ -24,6 +32,7 @@ nav a{
 
 
 }
+
 .menybar{
 	border-bottom-style: solid;
 	border-bottom-color: white;
@@ -469,10 +478,46 @@ table{
 	font-size: 0.6em;
 }
 
-@media all and (max-width: 480px) {
+
+@media all and (max-width: 480px){
 
 	body{
-		background:red;
+
+	}
+	.sokeboks{
+		display: none;
+		
+	}
+	
+	#main{
+		margin-top: 0em;
+	
+	}
+	.menybar{
+		display: none;
+	}
+	
+	.ventre{
+		
+		display: block;
+	}
+
+	nav{
+		text-align:left;
+	}
+	#sidebilde{
+	
+	display:block;
+	height: 3em;
+	width:3em;
+	float:left;	
+	
+	}
+	.under-nav{
+		display:none;
+	}
+	.innhold-boks {
+		width:100%;
 	}
   
 }
