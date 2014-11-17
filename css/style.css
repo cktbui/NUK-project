@@ -21,6 +21,21 @@ nav a{
 	text-decoration: none;
 	color: black;
 	font-family: raleway, arial;
+
+
+}
+.menybar{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+.menybar:hover{
+	border-bottom-style: solid;
+	border-bottom-color: #A80000;
+}
+#markert{
+		border-bottom-style: solid;
+	border-bottom-color: #e30000;
 }
 
 
