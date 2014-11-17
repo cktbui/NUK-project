@@ -372,7 +372,7 @@ body{
 }
 .nyhetstekst p{
 	/*border: 2px solid red;*/
-	ont-family: raleway, arial; 
+	font-family: raleway, arial; 
 	font-size: 1.2em;
 }
 
@@ -380,6 +380,17 @@ a{
 	font-family: raleway, arial; 
 	text-decoration: none;
 
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.overskrift{
+	font-family: raleway, arial;
+}
+.texten{
+	font-family: raleway, arial;
 }
 
 
