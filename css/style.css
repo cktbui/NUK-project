@@ -221,7 +221,7 @@ body{
 }
 
 .for-lokallag {
-	width: 49%;
+	width: 48.5%;
 	height: 10em;
 	margin-right: 1%;
 	margin-bottom: 2%;
@@ -245,7 +245,7 @@ body{
 .for-leir{
 	width: 48.5%;
 	height: 10em;
-	margin-right: 1%;
+	margin-left: 1%;
 	margin-bottom: 2%;
 	display: inline-block;
 	background-color: #A80000;
@@ -262,11 +262,14 @@ body{
 	margin-right: 1%;
 	margin-bottom: 2%;
 	display: inline-block;
-	background-color: #A80000;
+
 	padding-top:6%;
 	padding-bottom: 0%; 
 	padding-left: 0%;
 	padding-right: 0%;
+	background-image: url(for-medlemmer/retrett.JPG);
+
+
 }
 
 .ledertrening{
