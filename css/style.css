@@ -463,5 +463,13 @@ table{
 	font-size: 0.6em;
 }
 
+@media all and (max-width: 480px) {
+
+	body{
+		background:red;
+	}
+  
+}
+
 
 
