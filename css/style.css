@@ -221,24 +221,38 @@ body{
 }
 
 .for-lokallag {
-	width: 49%;
-	height: 12em;
+	width: 48.5%;
+	height: 10em;
 	margin-right: 1%;
 	margin-bottom: 2%;
 	display: inline-block;
-	background-color: blue;
-	
+	background-color: #A80000;
+	padding-top:6%;
+	padding-bottom: 0%; 
+	padding-left: 0%;
+	padding-right: 0%;
 
 }
 
+.for-lokallag p, .for-leir p{
+	font-family: raleway, arial;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .for-leir{
-	width: 48%;
-	height: 12em;
-	margin-left: 1%;
+	width: 48.5%;
+	height: 10em;
+	margin-right: 1%;
 	margin-bottom: 2%;
-	background-color: green;
 	display: inline-block;
-	
+	background-color: #A80000;
+	padding-top:6%;
+	padding-bottom: 0%; 
+	padding-left: 0%;
+	padding-right: 0%;
 
 }
 
