@@ -188,6 +188,9 @@ body{
 	background-color: #A80000;
 	
 }
+/*.undertittel:hover .undermeny{
+	display: block;
+}*/
 .undertittel:hover .link-font-style, .active .link-font-style{
 	color:white;
 }
@@ -208,15 +211,20 @@ body{
 }
 
 .undermeny{
-	display: none;
+	/*display: none;*/
 	background:white;
 	list-style-type: none;
 	padding: 0;
 	
 }
-
+ 
 .synlig{
 	display:block;
+}
+
+
+.usynlig{
+	display:none;
 }
 /*
 .link-font-style:hover{
@@ -526,11 +534,10 @@ a:visited{
 		display: none;
 	}
 	
-	.ventre{
-		
+	.venstre{
+		cursor: pointer;
 		display: block;
 	}
-
 	nav{
 		text-align:left;
 	}
@@ -548,8 +555,19 @@ a:visited{
 	.innhold-boks {
 		width:100%;
 	}
+	.lik-linje{
+		width:100%;
+	}
+	.undertittel{
+		list-style-type: none;
+		
+	}
+	#sidemeny{
+		padding-left:0;
+	}
   
 }
+	
 
 
 
