@@ -7,13 +7,13 @@ if(sjekk.className == "undertittel")
 */
 
 //skjul alle undermenyer
-//function skjulUndermenyer(){
+function skjulUndermenyer(){
 var undermenyer =  document.getElementsByClassName("undermeny");
 for(var i = 0; i < undermenyer.length; i++)
 	{
 		undermenyer[i].className = "undermeny usynlig";
 	}
-//}
+}
 
 function visUndermeny(element){
 	var id = element.id;
