@@ -13,7 +13,7 @@
 	<body onload="skjulUndermenyer()">
 
 			<header>
-				<a class="venstre" href="#"><img id="sidebilde" src="img/sidemenyknapp.png"/></a>
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="img/sidemenyknapp.png"/></div>
 				<nav>
 					<a class="menybar" href="../nyheter.html">NYHETER</a>
 
@@ -42,7 +42,8 @@
 			</div>
 				<div class="content lik-linje">
 					
-					<ul class="under-nav">
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="index.html">forsiden</a></li>
 					
 						<li class="undertittel"><a class="link-font-style" href="kontakt-oss.html">NUK-kontoret</a></li>
 						

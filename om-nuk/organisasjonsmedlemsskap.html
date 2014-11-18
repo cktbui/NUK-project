@@ -13,7 +13,7 @@
 	<body onload="skjulUndermenyer()">
 
 			<header>
-				<a class="venstre" href="#"><img id="sidebilde" src="../img/sidemenyknapp.png"/></a>
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png"/></div>
 				<nav>
 					<a class="menybar" href="../nyheter.html">NYHETER</a>
 
@@ -42,8 +42,8 @@
 			</div>
 				<div class="content lik-linje">
 					
-					<ul class="under-nav">
-					
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="../index.html">Forsiden</a></li>
 						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">NUK</a>
 							<ul id="undermeny_1" class="undermeny synlig">
 								<li class="under_undertittel"><a class="link-style" href="om_nuk.html">Om NUK</a></li>
