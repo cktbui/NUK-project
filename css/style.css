@@ -524,7 +524,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 @media all and (max-width: 480px){
 
-
+	.sokeboks{
+		display: none;
+		
+	}
 
 	
 	#main{
@@ -587,7 +590,40 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.overskrift{
 		margin-left:2%;
 	}
-  
+	.for-lokallag{
+		width: 100%;
+		height:6em;
+		padding-top: 2%;
+		padding-bottom:2%;
+	}
+	.for-leir{
+		width: 100%;
+		height:6em;
+		margin-left: 0%;
+		padding-top: 2%;
+		padding-bottom:2%;
+	}
+	.blader{
+		width: 45%;
+		margin-left:2%;
+		margin-right:2%;
+	}
+	.ledertrening{
+		width:46.5%;
+		margin-right: 2%;
+	}
+	
+	.retrett{
+		width: 46.5%;
+		margin-left:2%;
+	}
+	.ledertrening p{
+		font-size:1.5em;
+	}
+	.retrett p{
+		font-size:1.5em;
+		color: black;
+	}
 }
 @media all and (max-width: 668px) and (min-width: 481px){
 
