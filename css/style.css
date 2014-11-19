@@ -325,6 +325,9 @@ body{
 #skjemaer ul li{
 	list-style-type: none;
 }
+#skjemaer ol li{
+	list-style-type: lower-latin;;
+}
 #for-medlemmer p, li, #skjemaer{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;
