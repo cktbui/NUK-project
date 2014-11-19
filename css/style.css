@@ -490,26 +490,33 @@ table{
 
 
 /*kontakt oss siden */
-.kontakt-innhold{
+.kontakt-oss-innhold{
 	font-family: raleway, arial;
-	/*border: 1px solid red;*/
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.2em;
 	float: left;
-	width:45%;
+	width:40%;
 	margin-left: 17px;
+	line-height: 1.6;
 
 }
+.kontakt-oss-innhold2{
+
+
+
+}
+
 .kontakt-oss-bilde{/* kontakt oss sidensbilde*/
 	float: right;
-	/*border: 1px solid green;*/
-	width: 53.2%;
+	border: 2px solid black;
+	width: 53%;
 
 }
 
-a:visited{
-	color:black;
+a:visited{/*for linkene på kontakt oss siden*/
+	/*color:black;*/
 }
+
 
 
 
