@@ -255,7 +255,7 @@ body{
 	padding-right: 0%;
 }
 .aktuelt p{
-	font-family: "raleway", "arial";
+	font-family: ""raleway"", "arial";
 	color: black;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -724,13 +724,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.innhold-boks{
 		margin-left: 0%;
 		width:100%;
-<<<<<<< HEAD
-		margin-left:0;
-		margin-right:0;
-		margin-top:0;
-		padding:0;
-=======
->>>>>>> FETCH_HEAD
 	}
 		.nyheter-box{
 		width:47%;
