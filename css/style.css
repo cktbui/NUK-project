@@ -278,7 +278,7 @@ body{
 }
 
 .for-lokallag p, .for-leir p, .ledertrening p{
-	font-family: raleway, arial;
+	font-family: "raleway", "arial";
 	color: #fff;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -399,7 +399,7 @@ body{
 	 font-family: raleway,arial; 
 }
 
-.nyheter-box .caption p{/* det tilhører til bildetekst på nyhetboksene */
+.nyheter-box .caption p{/* bildetekst på nyhetboksene */
 	margin: 0;
 	padding: 0.5em;
 }
