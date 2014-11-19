@@ -518,13 +518,7 @@ a:visited{
 @media all and (max-width: 480px){
 
 
-	body{
 
-	}
-	.sokeboks{
-		display: none;
-		
-	}
 	
 	#main{
 		margin-top: 0em;
@@ -587,6 +581,54 @@ a:visited{
 		margin-left:2%;
 	}
   
+}
+@media all and (max-width: 668px) and (min-width: 481px){
+
+	.sokeboks{
+		display: none;
+		
+	}
+	.menybar{
+		display: none;
+	}
+	#main{
+		margin-top: 0em;
+	
+	}
+	.venstre{
+		cursor: pointer;
+		display: block;
+	}
+		.venstre{
+		cursor: pointer;
+		display: block;
+	}
+	nav{
+		text-align:left;
+	}
+	#sidebilde{
+	
+	display:block;
+	height: 3em;
+	width:3em;
+	float:left;	
+	
+	}
+	.under-nav{
+		display:none;
+	}
+	.lik-linje{
+		width:100%;
+	}
+	.undertittel{
+		list-style-type: none;
+		
+	}
+	
+	.innhold-boks{
+		width:100%;
+	}
+
 }
 	
 
