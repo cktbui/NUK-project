@@ -673,6 +673,14 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.innhold-boks{
 		width:100%;
 	}
+		.nyheter-box{
+		width:47%;
+		margin-left:0;
+		margin-right:0;
+		margin-top:0;
+		margin-bottom:0.5em;
+		font-size: 1.2em;
+	}
 
 }
 	
