@@ -278,7 +278,7 @@ body{
 }
 
 .for-lokallag p, .for-leir p, .ledertrening p{
-	font-family: ""raleway"", ""arial"";
+	font-family: "raleway", "arial";
 	color: #fff;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -322,7 +322,13 @@ body{
 	text-align: center;
 }
 
-
+#skjemaer ul li{
+	list-style-type: none;
+}
+#for-medlemmer p, li, #skjemaer{
+	font-family: "raleway", "arial"; 
+	line-height: 1.5;
+}
 
 .ledertrening{
 	width: 48.5%;
@@ -433,10 +439,7 @@ body{
 	line-height: 1.5;
 }
 
-#for-medlemmer p, li{
-	font-family: "raleway", "arial"; 
-	line-height: 1.5;
-}
+
 
 
 h1 {
