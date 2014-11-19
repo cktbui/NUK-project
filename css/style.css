@@ -528,6 +528,16 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.link-font-style{
 		font-size: 0.9em;
 	}
+	
+		.nyheter-box{
+		width:48%;
+		margin-left:1%;
+		margin-right:0;
+		margin-top:0;
+		margin-bottom:0.5em;
+		font-size: 1.2em;
+		
+	}
 
 }
 	/* Mobilversjon!*/
@@ -693,8 +703,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 		padding:0;
 	}
 	.nyheter-box{
-		width:47%;
-		margin-left:0;
+		width:48%;
+		margin-left:1%;
 		margin-right:0;
 		margin-top:0;
 		margin-bottom:0.5em;
