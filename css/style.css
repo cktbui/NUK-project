@@ -541,7 +541,38 @@ a:visited{/*for linkene på kontakt oss siden*/
 		font-size: 1.2em;
 		
 	}
+	.for-lokallag p, .for-leir p, .ledertrening p {
+		font-family: "raleway", "arial";
+		color: #fff;
+		font-size: 1.7em;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 1em;
+	}
+	
+	.blader{
+		width: 45%;
+		margin-left:2%;
+		margin-right:2%;
+	}
 
+}
+
+@media all and (max-width: 900px) and (min-width: 860px){
+	.blader{
+		width: 20%;
+		margin-left:2%;
+		margin-right:2%;
+	}
+		
+	.for-lokallag p, .for-leir p, .ledertrening p {
+		font-family: "raleway", "arial";
+		color: #fff;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 1em;
+	}
 }
 	/* Mobilversjon!*/
 @media all and (max-width: 480px){
