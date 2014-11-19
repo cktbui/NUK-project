@@ -255,7 +255,7 @@ body{
 	padding-right: 0%;
 }
 .aktuelt p{
-	font-family: "raleway", "arial";
+	font-family: ""raleway"", "arial";
 	color: black;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -529,49 +529,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 	margin-top: 1.5em;
 	margin-bottom: 4em;
 	
-<<<<<<< HEAD
-		.nyheter-box{
-		width:48%;
-		margin-left:1%;
-		margin-right:0;
-		margin-top:0;
-		margin-bottom:0.5em;
-		font-size: 1.2em;
-		
-	}
-	.for-lokallag p, .for-leir p, .ledertrening p {
-		font-family: "raleway", "arial";
-		color: #fff;
-		font-size: 1.7em;
-		text-transform: uppercase;
-		text-align: center;
-		margin-top: 1em;
-	}
-	
-	.blader{
-		width: 45%;
-		margin-left:2%;
-		margin-right:2%;
-	}
-
-}
-
-@media all and (max-width: 900px) and (min-width: 860px){
-	.blader{
-		width: 20%;
-		margin-left:2%;
-		margin-right:2%;
-	}
-		
-	.for-lokallag p, .for-leir p, .ledertrening p {
-		font-family: "raleway", "arial";
-		color: #fff;
-		font-size: 1.2em;
-		text-transform: uppercase;
-		text-align: center;
-		margin-top: 1em;
-	}
-=======
 }
 
 .sekreteriat-list{
@@ -595,7 +552,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 	display: inline-block;
 	float:left;
 	padding-right: 5%;
->>>>>>> origin/master
 }
 
 .sekreteriat-tekst p{
@@ -768,13 +724,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.innhold-boks{
 		margin-left: 0%;
 		width:100%;
-<<<<<<< HEAD
-		margin-left:0;
-		margin-right:0;
-		margin-top:0;
-		padding:0;
-=======
->>>>>>> FETCH_HEAD
 	}
 		.nyheter-box{
 		width:47%;
