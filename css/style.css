@@ -325,9 +325,6 @@ body{
 #skjemaer ul li{
 	list-style-type: none;
 }
-#skjemaer ol li{
-	list-style-type: lower-latin;;
-}
 #for-medlemmer p, li, #skjemaer{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;
@@ -523,26 +520,52 @@ a:visited{/*for linkene på kontakt oss siden*/
 }
 
 
-@media all and (max-width: 860px) and (min-width: 669px){
+
+.sekreteriat{
+	list-style-type: none;
+	width:50%;
+	display:inline-block;
+	float:left;
+	margin-top: 1.5em;
+	margin-bottom: 4em;
 	
-	.menybar{
-		font-size: 0.7em;
-	}
-	.link-font-style{
-		font-size: 0.9em;
-	}
-	
-		.nyheter-box{
-		width:48%;
-		margin-left:1%;
-		margin-right:0;
-		margin-top:0;
-		margin-bottom:0.5em;
-		font-size: 1.2em;
-		
-	}
+}
+
+.sekreteriat-list{
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+.sekreteriat-bilde, .sekreteriat-tekst{
+	width:45%;
 
 }
+
+.sekreteriat-bilde{
+	display: inline-block;
+	float:left;
+}
+
+.sekreteriat-tekst{
+	display: inline-block;
+	float:left;
+	padding-right: 5%;
+}
+
+.sekreteriat-tekst p{
+	margin-top:0;
+}
+
+
+
+
+
+
+
+
+
 	/* Mobilversjon!*/
 @media all and (max-width: 480px){
 
@@ -649,6 +672,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 }
 
+
 	/*Nettbrett versjon*/
 @media all and (max-width: 668px) and (min-width: 481px){
 
@@ -670,7 +694,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 		cursor: pointer;
 		display: block;
 	}
-	.venstre{
+		.venstre{
 		cursor: pointer;
 		display: block;
 	}
@@ -700,14 +724,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.innhold-boks{
 		margin-left: 0%;
 		width:100%;
-			margin-left:0;
-		margin-right:0;
-		margin-top:0;
-		padding:0;
 	}
-	.nyheter-box{
-		width:48%;
-		margin-left:1%;
+		.nyheter-box{
+		width:47%;
+		margin-left:0;
 		margin-right:0;
 		margin-top:0;
 		margin-bottom:0.5em;
@@ -726,63 +746,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.Mbilde{
 		width: 96%
 	}
-		.for-lokallag{
-		width: 100%;
-		height:6em;
-		padding-top: 2%;
-		padding-bottom:2%;
-	}
-	.for-leir{
-		width: 100%;
-		height:6em;
-		margin-left: 0%;
-		padding-top: 2%;
-		padding-bottom:2%;
-	}
-	.blader{
-		width: 45%;
-		margin-left:2%;
-		margin-right:2%;
-	}
-	.ledertrening{
-		width:46.5%;
-		margin-right: 2%;
-	}
+}
 	
-	.retrett{
-		width: 46.5%;
-		margin-left:2%;
-		background-size: auto 100% ;
-	}
-	.ledertrening p{
-		font-size:1.5em;
-	}
-	.retrett p{
-		font-size:1.5em;
-		color: black;
-	}
-	/*Større tekst*/
-	@media all and (max-width: 668px) and (min-width: 505px){
-		.ledertrening p{
-		font-size:1.6em;
-		}
-		.retrett p{
-		font-size:1.6em;
-		color: black;
-	}
-		@media all and (max-width: 668px) and (min-width: 536px){
-		
-		.ledertrening p{
-		font-size:1.5em;
-		}
-		.retrett p{
-		font-size:1.5em;
-		color: black;
-		padding-top: 1.2em;
-		}
-
-		
-}
 
 
-}
+
