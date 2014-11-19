@@ -640,6 +640,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 		margin-top: 0em;
 	
 	}
+	#sidemeny{
+	padding: 0 1em 1em 1em;
+	}
 	.venstre{
 		cursor: pointer;
 		display: block;
@@ -661,6 +664,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	.under-nav{
 		display:none;
+		
 	}
 	.lik-linje{
 		width:100%;
@@ -671,6 +675,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	
 	.innhold-boks{
+		margin-left: 0%;
 		width:100%;
 	}
 		.nyheter-box{
@@ -680,8 +685,20 @@ a:visited{/*for linkene på kontakt oss siden*/
 		margin-top:0;
 		margin-bottom:0.5em;
 		font-size: 1.2em;
+		
 	}
-
+	
+	.texten{
+		margin-left: 4%;
+		margin-right:4%;
+	
+	}
+	.overskrift{
+		margin-left:2%;
+	}
+	.Mbilde{
+		width: 96%
+	}
 }
 	
 
