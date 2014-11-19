@@ -109,7 +109,7 @@ nav a{
 	padding: 0.5em;
 }
 
-button{
+button{ /* Søkeknapp */
 	border: none;
 	background: #e30000;
 	color: white;
@@ -129,15 +129,14 @@ body{
 	background-color: #F6F6F6;
 	margin: 0;
 	width:100%
-
 }
-#main{
+
+#main{ /* Usynlig boks som holder alt i midten */
 	margin: auto;
 	width: 90%;
 	height: auto;
 	margin-top:-2em;
 	overflow: hidden;
-	
 }
 
 .innhold-boks{ /* hovedboksen som skal ha innholdet */
@@ -300,7 +299,7 @@ body{
 
 }
 
-.retrett{
+.retrett{ /* Retrett-boks på "for medlemmer"-siden */
 	width: 48.5%;
 	height: 10em;
 	margin-right: 1%;
