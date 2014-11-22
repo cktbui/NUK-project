@@ -326,8 +326,14 @@ body{
 	list-style-type: none;
 }
 #skjemaer ol li{
-	list-style-type: lower-latin;;
+	list-style-type: lower-latin;
 }
+
+#skjemaer img{
+	width: 30%;
+	height: auto;
+}
+
 #for-medlemmer p, li, #skjemaer{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;

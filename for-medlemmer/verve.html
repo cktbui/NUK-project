@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>NUK: Vervemateriale</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="../img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="../Nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+			
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png"/></div>
+				<nav>
+					<a class="menybar" href="../nyheter.html">NYHETER</a>
+
+					<a class="menybar"id="markert" href="../for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" href="../bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="../index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" src="../img/logo.png"/></a>
+
+					<a class="menybar" href="../aktiviteter.html">VÅRE AKTIVITETER</a>
+
+					<a class="menybar" href="../om-nuk.html">OM NUK</a>
+
+					<a class="menybar" href="../kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+				
+				<div class="sokeboks">
+					<form>
+					<input type="text" value=""/>
+					<button>søk</button>
+					</form>
+				</div>
+
+				<div class="content lik-linje">
+					
+					<ul class="under-nav">
+
+						<li class="undertittel"><a class="link-font-style" href="">Aktuelt</a></li>
+					
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Ledertrening</a>
+							<ul id="undermeny_1" class="undermeny">
+								<li class="under_undertittel"><a class="link-style" href="#">Om ledertrening</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">De ulike kursene</a></li>
+							</ul>
+						</li>
+
+						<li class="undertittel" id="2" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Nyttig for lokallag</a>
+							<ul id="undermeny_2" class="undermeny">
+								<li class="under_undertittel"><a class="link-style" href="frifond.html">Frifond</a></li>
+								<li class="under_undertittel"><a class="link-style" href="skjemaer.html">Skjemaer</a></li>
+								<li class="under_undertittel"><a class="link-style" href="handbok.html">Håndbøker</a></li>
+								<li class="under_undertittel"><a class="link-style" href="verve.html">Vervemateriale</a></li>
+							</ul>
+						</li>
+						
+						<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Nyttig for leir</a>
+							<ul id="undermeny_3" class="undermeny">
+								<li class="under_undertittel"><a class="link-style" href="#">Leirhåndboka</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">Førstehjelp</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">Kokebok</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">Skjemaer og maler</a></li>
+							</ul>
+						</li>
+						
+						
+						<!-- <li class="undertittel"><a class="link-font-style" href="">Nyttige lenker</a></li> -->
+							
+						<li class="undertittel"><a class="link-font-style" href="">Bladene</a></li>
+
+							<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Arkiv</a>
+							<ul id="undermeny_2" class="undermeny">
+								<li class="under_undertittel"><a class="link-style" href="#">Dokumenter</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">NUK-nytt</a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="innhold-boks" id="skjemaer">
+
+					<article>
+
+						<h1>Vervemateriale</h1>
+
+						<h2>Vervebrosjyre</h2>
+						<img src="vervebrosjyre.jpg" />
+						<p>Vervebrosjyre med informasjon om NUK som kan deles ut til potensielle nye medlemmer.</p>
+						<a href = "vervebrosjyre.pdf" target = "_blank">Klikk her for å laste ned vervebrosjyren</a>
+
+						<h2>Informasjonsbrev</h2>
+						<p>Informasjonsbrev til ververe med praktiske tips og lignende.</p>
+						<a href = "Vervesøndag-infobrev.doc" target = "_blank">Klikk her for å laste ned infobrevet</a>
+
+						<h2>Innmeldingsskjema</h2>
+						<img src="Skjema-innmelding.jpg" />
+						<p>Har du greid å verve noen? Fyll inn dette skjemaet for å registrere dem.</p>
+						<a href = "Skjema-innmelding.pdf" target = "_blank">Klikk her for å laste ned innmeldingsskjemaet.</a>
+						
+
+
+					</article>
+
+				</div>
+					
+				
+			</div>
+		
+
+
+	</body>
+
+
+</html>
