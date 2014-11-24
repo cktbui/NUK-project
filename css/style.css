@@ -442,9 +442,8 @@ body{
 
 }
 .nyhetsbilde img{/* nyhetensbildet på nyhetssiden */
-	border: 1px solid black; 
 	display: inline-block;
-	width: 75%;
+	width: 100%;
 
 }
 .nyhetstekst p{
