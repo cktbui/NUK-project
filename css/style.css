@@ -243,6 +243,7 @@ body{
 	text-decoration: none;
  }
 
+/* Ting som tilhører "for medlemmer" */
 .aktuelt {
 	width: 100%;
 	height: 10em;
@@ -334,9 +335,15 @@ body{
 	height: auto;
 }
 
-#for-medlemmer p, li, #skjemaer{
+#for-medlemmer p, li, #skjemaer, #ledertrening{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;
+}
+
+#ledertrening img{
+	width: 100%;
+	height: auto;
+
 }
 
 .ledertrening{
@@ -350,7 +357,6 @@ body{
 	padding-bottom: 0%; 
 	padding-left: 0%;
 	padding-right: 0%;
-	
 
 }
 
