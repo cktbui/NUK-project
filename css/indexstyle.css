@@ -207,6 +207,12 @@ a{
 	height: auto;
 
 }
+.mer-nyheter-knapp{
+	float: right;
+	
+
+	
+}
 
 @media all and (max-width: 480px) {
 	.box{
