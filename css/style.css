@@ -554,7 +554,6 @@ table{
 
 .kontakt-oss-bilde{/* kontakt oss sidensbilde*/
 	float: right;
-	border: 2px solid black;
 	width: 53%;
 
 }
@@ -599,6 +598,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 }
 #fet-tekst{
 	font-weight:bold;
+	font-size: 1.2em;
+
 
 }
 
