@@ -312,7 +312,7 @@ body{
 	padding-left: 0%;
 	padding-right: 0%;
 	background-image: url(../for-medlemmer/retrett.JPG);
-	background-size: 100% auto;
+	background-size:   100% auto ;
 	float:left;
 }
 
@@ -516,6 +516,7 @@ table{
 
 .overskrift{
 	font-family: "raleway", "arial";
+
 }
 .texten{
 	font-family: "raleway", "arial";
@@ -606,6 +607,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 	/* Mobilversjon!*/
 @media all and (max-width: 480px){
+	.overskrift{
+		margin-top:2%;
+		margin-left:2%;
+	}
+	
 	
 	
 	.sekreteriat{
@@ -676,6 +682,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	.overskrift{
 		margin-left:2%;
+		margin-top:2%;
 	}
 	.for-lokallag{
 		width: 100%;
@@ -716,6 +723,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 	/*Nettbrett versjon*/
 @media all and (max-width: 668px) and (min-width: 481px){
+	.overskrift{
+		margin-top:2%;
+		margin-left:2%;
+	}
+	
 	.sekreteriat{
 		width:100%;
 	}
@@ -787,9 +799,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 		margin-right:4%;
 	
 	}
-	.overskrift{
-		margin-left:2%;
-	}
+
 	.Mbilde{
 		width: 96%
 	}
@@ -814,14 +824,14 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.ledertrening{
 		width:100%;
 		margin-right: 2%;
-		height:6em;
+		height:10em;
 	}
 	
 	.retrett{
 		width: 100%;
 		margin-left:2%;
 		background-size: auto 100% ;
-		height:6em;
+		height:10em;
 	}
 	.ledertrening p{
 		font-size:1.5em;
@@ -834,6 +844,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 }
 
 @media all and (max-width: 860px) and (min-width: 669px){
+	.overskrift{
+		margin-top:2%;
+		margin-left:2%;
+	}
+	
 	.sekreteriat{
 		width:100%;
 	}
