@@ -477,7 +477,18 @@ a{
 
 }
 
-
+.bildene{
+	width:60%;
+	display:block;
+	/*
+	margin-left:auto;
+	margin-right:auto;
+	*/
+}
+.retrett_bilde{
+	float:right;
+	width:20%;
+}
 
 table{
 	margin-left:auto;
