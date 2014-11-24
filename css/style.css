@@ -498,7 +498,8 @@ a{
 }
 .retrett_bilde{
 	float:right;
-	width:20%;
+	width:11em;
+	margin-left:1em;
 }
 .float{
 	float:right;
