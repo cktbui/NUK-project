@@ -444,11 +444,7 @@ body{
 .nyhetsbilde img{/* nyhetensbildet på nyhetssiden */
 	border: 1px solid black; 
 	display: inline-block;
-	width: 100%;
-
-
-}
-
+	width: 75%;
 
 }
 .nyhetstekst p{
@@ -556,6 +552,7 @@ table{
 
 .kontakt-oss-bilde{/* kontakt oss sidensbilde*/
 	float: right;
+	border: 2px solid black;
 	width: 53%;
 
 }
@@ -598,15 +595,17 @@ a:visited{/*for linkene på kontakt oss siden*/
 .sekreteriat-tekst p{
 	margin-top:0;
 }
-#fet-tekst{
-	font-weight:bold;
-	font-size: 1.2em;
 
-
-}
-
-@media all and (max-width: 860px) and (min-width: 669px){
+@media all and (max-width: 1080px) and (min-width: 860px){
+	.sekreteriat{
+		width:100%;
+	}
 	
+}
+@media all and (max-width: 860px) and (min-width: 669px){
+	.sekreteriat{
+		width:100%;
+	}
 	.menybar{
 		font-size: 0.7em;
 	}
@@ -627,7 +626,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 }
 	/* Mobilversjon!*/
 @media all and (max-width: 480px){
-
+	
+	
+	.sekreteriat{
+		width:100%;
+	}
 	.sokeboks{
 		display: none;
 		
@@ -733,7 +736,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 	/*Nettbrett versjon*/
 @media all and (max-width: 668px) and (min-width: 481px){
-
+	.sekreteriat{
+		width:100%;
+	}
 	.sokeboks{
 		display: none;
 		
