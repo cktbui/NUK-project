@@ -495,7 +495,19 @@ a{
 	float:right;
 	width:20%;
 }
-
+.float{
+	float:right;
+}
+.table_row{
+	width:100%;
+	background-color:#e30000;
+	text-align:center;
+	color:white;
+	font-family: "raleway", "arial"; 
+}
+.table_cell{
+	width: 8%;
+}
 table{
 	margin-left:auto;
 	margin-right:auto;
