@@ -598,6 +598,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 		width:100%;
 	}
 	
+		.link-style{
+		font-size: 0.8em;
+	}
+	
 }
 @media all and (max-width: 860px) and (min-width: 669px){
 	.sekreteriat{
@@ -609,6 +613,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.link-font-style{
 		font-size: 0.9em;
 	}
+	.link-style{
+		font-size: 0.6em;
+	}
 	
 		.nyheter-box{
 		width:48%;
@@ -619,11 +626,16 @@ a:visited{/*for linkene på kontakt oss siden*/
 		font-size: 1.2em;
 		
 	}
+	.nyhetsbilde img{
+		width:100%;
+	}
 
 }
 	/* Mobilversjon!*/
 @media all and (max-width: 480px){
-	
+	.nyhetsbilde img{
+		width:100%;
+	}
 	
 	.sekreteriat{
 		width:100%;
@@ -845,6 +857,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 		font-size:1.5em;
 		color: black;
 	}
+	.nyhetsbilde img{
+		width:100%;
+	}
 	/*Større tekst*/
 	@media all and (max-width: 668px) and (min-width: 505px){
 		.ledertrening p{
@@ -853,7 +868,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 		.retrett p{
 		font-size:1.6em;
 		color: black;
-	}
+		}
+		
 		@media all and (max-width: 668px) and (min-width: 536px){
 		
 		.ledertrening p{
