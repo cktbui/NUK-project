@@ -605,6 +605,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.sekreteriat{
 		width:100%;
 	}
+		.link-style{
+		font-size: 0.7em;
+	}
 	
 }
 @media all and (max-width: 860px) and (min-width: 669px){
@@ -616,6 +619,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	.link-font-style{
 		font-size: 0.9em;
+	}
+	.link-style{
+		font-size: 0.6em;
 	}
 	
 		.nyheter-box{
