@@ -455,8 +455,6 @@ body{
 }
 
 
-
-
 h1 {
 	font-family: "raleway", "arial";
 	font-size: 2em;
@@ -552,7 +550,7 @@ table{
 
 .kontakt-oss-bilde{/* kontakt oss sidensbilde*/
 	float: right;
-	border: 2px solid black;
+	
 	width: 53%;
 
 }
