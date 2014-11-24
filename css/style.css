@@ -553,6 +553,13 @@ table{
 	width: 53%;
 
 }
+.sosial-media img{
+	float: right;
+	margin-top: 2.1em;
+	margin-right: 1em;
+	margin-bottom: 0px;
+	width: 8.1%;
+}
 
 a:visited{/*for linkene på kontakt oss siden*/
 	/*color:black;*/
