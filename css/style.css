@@ -444,7 +444,11 @@ body{
 .nyhetsbilde img{/* nyhetensbildet på nyhetssiden */
 	border: 1px solid black; 
 	display: inline-block;
-	width: 75%;
+	width: 100%;
+
+
+}
+
 
 }
 .nyhetstekst p{
@@ -592,6 +596,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 .sekreteriat-tekst p{
 	margin-top:0;
+}
+#fet-tekst{
+	font-weight:bold;
+
 }
 
 @media all and (max-width: 860px) and (min-width: 669px){
