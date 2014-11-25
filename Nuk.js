@@ -9,6 +9,8 @@ if(sjekk.className == "undertittel")
 //skjul alle undermenyer
 function skjulUndermenyer(){
 var undermenyer =  document.getElementsByClassName("undermeny");
+var rød =  document.getElementsByClassName("undertittel");
+
 for(var i = 0; i < undermenyer.length; i++)
 	{
 			if(undermenyer[i].className == "undermeny synlig")
@@ -17,12 +19,30 @@ for(var i = 0; i < undermenyer.length; i++)
 			}
 			else
 			{
-			undermenyer[i].className = "undermeny usynlig";
+				undermenyer[i].className = "undermeny usynlig";
+			}
+	}
+}
+function goUndermenyer(){
+var undermenyer =  document.getElementsByClassName("undermeny");
+var rød = document.getElementsByClassName("undermeny");
+for(var i = 0; i < undermenyer.length; i++)
+	{
+			if(undermenyer[i].className == "undermeny synlig")
+			{
+				undermenyer[i].className = "undermeny usynlig";
+			}
+			else
+			{
+				undermenyer[i].className = "undermeny usynlig";
 			}
 	}
 }
 
+
 function visUndermeny(element){
+	goUndermenyer();//denne skjuler de andre åpne menyene.
+	
 	var id = element.id;
 	
 	
@@ -31,11 +51,11 @@ function visUndermeny(element){
 	if(visElement.className == "undermeny usynlig"){
 			visElement.className = "undermeny";
 			visElement.className = visElement.className + " synlig";
-			element.className = element.className + " active";
+			//element.className = element.className + " active";
 		}
 	else{
 			visElement.className = "undermeny usynlig";
-			element.className = "undertittel" 
+			//element.className = "undertittel" 
 		}
 }
 
