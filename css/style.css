@@ -594,7 +594,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 .sekreteriat-bilde, .sekreteriat-tekst{
 	width:45%;
 }
-
+.rapportbilde{
+	width: 50%;
+}
 .sekreteriat-bilde{
 	display: inline-block;
 	float:left;
