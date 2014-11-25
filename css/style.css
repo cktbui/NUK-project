@@ -116,7 +116,7 @@ button{ /* Søkeknapp */
 	font-family: "raleway", "arial";
 	text-transform: uppercase;
 	cursor: pointer;
-	padding: 0.7em;
+	padding: 0.63em;
 	vertical-align: top;
 	
 }
@@ -503,7 +503,7 @@ a{
 	float:right;
 	width:12em;
 	margin-left:1em;
-	border-style:solid;
+
 }
 .float{
 	float:right;
@@ -928,6 +928,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 		font-size: 1.2em;
 		
 	}
+
 	
 	.for-leir{
 		width: 100%;
