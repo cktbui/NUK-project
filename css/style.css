@@ -777,12 +777,12 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	
 	.innhold-boks{
-		margin-left: 0%;
+		margin-left: 1%;
 		width:100%;
-			margin-left:0;
-		margin-right:0;
+		margin-left:0;
+		margin-right:;
 		margin-top:0;
-		padding:0;
+		padding:0%;
 	}
 	.nyheter-box{
 		width:48%;
