@@ -612,6 +612,15 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 
 	/* Mobilversjon!*/
+@media all and (max-width: 412px){
+	.sekreteriat-bilde, .sekreteriat-tekst{
+		width:68%;
+	}
+
+
+
+}	
+
 @media all and (max-width: 480px){
 	.overskrift{
 		margin-top:2%;
