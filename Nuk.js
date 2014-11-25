@@ -11,7 +11,14 @@ function skjulUndermenyer(){
 var undermenyer =  document.getElementsByClassName("undermeny");
 for(var i = 0; i < undermenyer.length; i++)
 	{
-		undermenyer[i].className = "undermeny usynlig";
+			if(undermenyer[i].className == "undermeny synlig")
+			{
+			
+			}
+			else
+			{
+			undermenyer[i].className = "undermeny usynlig";
+			}
 	}
 }
 

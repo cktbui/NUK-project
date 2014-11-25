@@ -600,6 +600,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 	margin-bottom: 4em;
 }
 
+
+
 .sekreteriat-list{
 	overflow: hidden;
 	margin:0;
@@ -662,6 +664,9 @@ a:visited{/*for linkene på kontakt oss siden*/
 	.overskrift{
 		margin-top:2%;
 		margin-left:2%;
+	}
+	.sosial-media img{
+		margin-right:1em;
 	}
 	
 	
@@ -775,6 +780,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 	/*Nettbrett versjon*/
 @media all and (max-width: 668px) and (min-width: 481px){
+	.sosial-media img{
+		margin-right:1em;
+	}
+	
 	.overskrift{
 		margin-top:2%;
 		margin-left:2%;
@@ -896,6 +905,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 }
 
 @media all and (max-width: 860px) and (min-width: 669px){
+	.sosial-media img{
+		margin-right:1em;
+	}
+
 	.overskrift{
 		margin-top:2%;
 		margin-left:2%;
