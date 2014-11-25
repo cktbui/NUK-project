@@ -501,8 +501,9 @@ a{
 }
 .retrett_bilde{
 	float:right;
-	width:11em;
+	width:12em;
 	margin-left:1em;
+	border-style:solid;
 }
 .float{
 	float:right;
@@ -530,7 +531,7 @@ table{
 .texten{
 	font-family: "raleway", "arial";
 	line-height:1.5;
-	float:left;
+
 	margin-right: 1em;
 		
 }
