@@ -635,6 +635,14 @@ a:visited{/*for linkene på kontakt oss siden*/
 	display: none;
 }
 
+.texten-aktivitet{
+	
+	margin-right:2%;
+	float: left;
+	font-family: "raleway", "arial";
+	
+	}
+
 
 
 	/* Mobilversjon!*/
