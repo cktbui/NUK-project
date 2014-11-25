@@ -562,6 +562,7 @@ table{
 	width: 53%;
 
 }
+
 .sosial-media img{
 	float: right;
 	margin-top: 2.1em;
@@ -599,6 +600,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	float:left;
 }
 
+
 .sekreteriat-tekst{
 	display: inline-block;
 	float:left;
@@ -617,6 +619,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 		width:68%;
 	}
 
+	
+	.kontakt-oss-bilde{
+		display:none;
+	}
 
 
 }	
@@ -943,13 +949,19 @@ a:visited{/*for linkene på kontakt oss siden*/
 @media all and (max-width: 668px) and (min-width: 536px){
 		
 	.ledertrening p{
-	font-size:1.5em;
+		font-size:1.5em;
 	}
 	.retrett p{
-	font-size:1.5em;
-	color: black;
-	padding-top: 1.2em;
+		font-size:1.5em;
+		color: black;
+		padding-top: 1.2em;
 	}
+	
+	.kontakt-oss-bilde{
+		padding-top: 0.8em;
+		padding-right: 0.8em;
+	}
+
 }
 @media all and (max-width: 1220px) and (min-width: 1081px){
 	.nyheter-box{
