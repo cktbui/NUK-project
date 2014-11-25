@@ -548,8 +548,8 @@ table{
 	font-family: "raleway", "arial";
 	text-decoration: none;
 	font-size: 1.2em;
-	float: left;
-	width:40%;
+	float: right;
+	width:100%;
 	margin-left: 17px;
 	line-height: 1.6;
 
