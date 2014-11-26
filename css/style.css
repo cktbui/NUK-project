@@ -190,8 +190,8 @@ body{
 	margin-bottom: 0.2em;
 
 	background-color:#FFF;
-	transition: color 1s;
-	transition: background-color 0.5s;
+	transition: color 0.25s;
+	transition: background-color 0.25s;
 }
 
 .undertittel a{
@@ -227,7 +227,7 @@ body{
 }
 .under_undertittel{
 	background: #ededed;
-	transition: background-color 0.5s;
+	transition: background-color 0.25s;
 }
 
 .undermeny{
@@ -235,7 +235,7 @@ body{
 	background:white;
 	list-style-type: none;
 	padding: 0;
-	transition: height 1s;
+
 	
 }
  
