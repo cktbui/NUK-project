@@ -16,7 +16,9 @@ nav{
 #nyhetersok form{
 	padding-right:3em;
 }
-
+#FORSIDEN{
+	display:none;
+}
 
 #iconmeny{
 	display: none;
@@ -107,7 +109,10 @@ nav a{
 	margin-right:auto;
 	
 }
-
+.Fusynlig
+{
+	display:none;
+}
 .sokeboks {
 	height: 2em;
 	display:block;
@@ -680,6 +685,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 	#nyhetersok form{
 		padding-right:0em;
 	}
+	
+	#FORSIDEN{
+		display:block;
+	}
 	.overskrift{
 		margin-top:2%;
 		margin-left:2%;
@@ -817,6 +826,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 	/*Nettbrett versjon*/
 @media all and (max-width: 668px) and (min-width: 481px){
+	
+	#FORSIDEN{
+		display:block;
+	}
+	
 	.sosial-media img{
 		margin-right:1em;
 	}

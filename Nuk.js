@@ -28,16 +28,18 @@ var undermenyer =  document.getElementsByClassName("undermeny");
 var rød = document.getElementsByClassName("undertittel");
 for(var i = 0; i < undermenyer.length; i++)
 	{
-			if(undermenyer[i].className == "undermeny synlig")
-			{
+			if(undermenyer[i].className == "undermeny synlig"){
 				undermenyer[i].className = "undermeny usynlig";
 				rød[i].className = "undertittel";
 			}
-			else
-			{
+			else if(rød[i].className == "undertittel Fusynlig"){
+				rød[i].className = "undertittel Fusynlig";
+			}
+			else{
 				undermenyer[i].className = "undermeny usynlig";
 				rød[i].className = "undertittel";
 			}
+			
 	}
 }
 
