@@ -25,16 +25,18 @@ for(var i = 0; i < undermenyer.length; i++)
 }
 function goUndermenyer(){
 var undermenyer =  document.getElementsByClassName("undermeny");
-var rød = document.getElementsByClassName("undermeny");
+var rød = document.getElementsByClassName("undertittel");
 for(var i = 0; i < undermenyer.length; i++)
 	{
 			if(undermenyer[i].className == "undermeny synlig")
 			{
 				undermenyer[i].className = "undermeny usynlig";
+				rød[i].className = "undertittel";
 			}
 			else
 			{
 				undermenyer[i].className = "undermeny usynlig";
+				rød[i].className = "undertittel";
 			}
 	}
 }
@@ -51,11 +53,11 @@ function visUndermeny(element){
 	if(visElement.className == "undermeny usynlig"){
 			visElement.className = "undermeny";
 			visElement.className = visElement.className + " synlig";
-			//element.className = element.className + " active";
+			element.className = element.className + " active";
 		}
 	else{
 			visElement.className = "undermeny usynlig";
-			//element.className = "undertittel" 
+			element.className = "undertittel" 
 		}
 }
 
