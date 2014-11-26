@@ -9,13 +9,42 @@ if(sjekk.className == "undertittel")
 //skjul alle undermenyer
 function skjulUndermenyer(){
 var undermenyer =  document.getElementsByClassName("undermeny");
+var rød =  document.getElementsByClassName("undertittel");
+
 for(var i = 0; i < undermenyer.length; i++)
 	{
-		undermenyer[i].className = "undermeny usynlig";
+			if(undermenyer[i].className == "undermeny synlig")
+			{
+			
+			}
+			else
+			{
+				undermenyer[i].className = "undermeny usynlig";
+			}
+	}
+}
+function goUndermenyer(){
+var undermenyer =  document.getElementsByClassName("undermeny");
+var rød = document.getElementsByClassName("undertittel");
+for(var i = 0; i < undermenyer.length; i++)
+	{
+			if(undermenyer[i].className == "undermeny synlig")
+			{
+				undermenyer[i].className = "undermeny usynlig";
+				rød[i].className = "undertittel";
+			}
+			else
+			{
+				undermenyer[i].className = "undermeny usynlig";
+				rød[i].className = "undertittel";
+			}
 	}
 }
 
+
 function visUndermeny(element){
+	goUndermenyer();//denne skjuler de andre åpne menyene.
+	
 	var id = element.id;
 	
 	
@@ -47,5 +76,15 @@ function visMeny(){
 		visElement.className = "under-nav";
 		klasse.className = klasse + " usynlig";
 		
+	}
+}
+
+function visSokeboks() {
+	var vissok = document.getElementsByClassName("sokeboks");
+	if(vissok[0].className == "sokeboks"){
+		vissok[0].className = "sokeboks synligviktig";
+	}
+	else{
+		vissok[0].className = "sokeboks";
 	}
 }
