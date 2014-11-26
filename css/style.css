@@ -687,14 +687,15 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	.sokeboks{
 		display: none;
+
 		
 	}
     .sokeboks form {
-	
-	float: left;
-	
+	float: none;
+	width: 13em;
+	margin:auto;
 	}
-	
+
 	#main{
 		margin-top: 0em;
 	
@@ -821,8 +822,16 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 	.sokeboks{
 		display: none;
+
 		
 	}
+	.sokeboks form{
+		float: none;
+		width:13em;
+		margin:auto;
+		
+	}
+
 	.menybar{
 		display: none;
 	}
