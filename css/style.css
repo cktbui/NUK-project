@@ -343,25 +343,25 @@ body{
 }
 
 
-#skjemaer ul li{
+.skjemaer ul li{
 	list-style-type: none;
 }
-#skjemaer ol li{
+.skjemaer ol li{
 	list-style-type: lower-latin;
 }
 
 
-#skjemaer img, #handbok img{
+.skjemaer img, #handbok img{
 	width: 50%;
 	height: auto;
 }
 
-#for-medlemmer p, li, #skjemaer, #ledertrening, #handbok{
+#for-medlemmer p, li, .skjemaer, .ledertrening, .handbok{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;
 }
 
-#ledertrening img{
+.ledertrening img{
 	width: 100%;
 	height: auto;
 
