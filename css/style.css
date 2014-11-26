@@ -147,6 +147,10 @@ body{
 	margin: 0;
 	width:100%
 }
+object{
+	height:400px;
+	width:100%;
+}
 
 #main{ /* Usynlig boks som holder alt i midten */
 	margin: auto;
