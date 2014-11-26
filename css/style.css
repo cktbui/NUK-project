@@ -22,6 +22,16 @@ nav{
 	height: 0em;
 	width:0em;
 }
+#sidebilde-hogre{
+	display: none;
+	height: 0em;
+	width:0em;
+	margin-top:0.2em;
+}
+
+.synligviktig{
+	display: block !important; 
+}
 
 nav a{
 	width: 13%;
@@ -679,7 +689,11 @@ a:visited{/*for linkene på kontakt oss siden*/
 		display: none;
 		
 	}
-
+    .sokeboks form {
+	
+	float: left;
+	
+	}
 	
 	#main{
 		margin-top: 0em;
@@ -693,6 +707,10 @@ a:visited{/*for linkene på kontakt oss siden*/
 		cursor: pointer;
 		display: block;
 	}
+	.hogre{
+		cursor: pointer;
+		display: block;
+	}
 	nav{
 		text-align:left;
 	}
@@ -702,6 +720,14 @@ a:visited{/*for linkene på kontakt oss siden*/
 	height: 3em;
 	width:3em;
 	float:left;	
+	
+	}
+	#sidebilde-hogre{
+	
+	display:block;
+	height: 3em;
+	width:3em;
+	float:right;	
 	
 	}
 	.under-nav{
@@ -811,10 +837,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 		cursor: pointer;
 		display: block;
 	}
-	.venstre{
-		cursor: pointer;
-		display: block;
-	}
 	nav{
 		text-align:left;
 	}
@@ -824,6 +846,14 @@ a:visited{/*for linkene på kontakt oss siden*/
 	height: 3em;
 	width:3em;
 	float:left;	
+	
+	}
+	#sidebilde-hogre{
+	
+	display:block;
+	height: 3em;
+	width:3em;
+	float:right;	
 	
 	}
 	.under-nav{

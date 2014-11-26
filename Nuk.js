@@ -76,3 +76,13 @@ function visMeny(){
 		
 	}
 }
+
+function visSokeboks() {
+	var vissok = document.getElementsByClassName("sokeboks");
+	if(vissok[0].className == "sokeboks"){
+		vissok[0].className = "sokeboks synligviktig";
+	}
+	else{
+		vissok[0].className = "sokeboks";
+	}
+}
