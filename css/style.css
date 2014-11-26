@@ -231,25 +231,24 @@ body{
 }
 
 .undermeny{
-	visibility: hidden;
+	display: none;
 	background:white;
 	list-style-type: none;
 	padding: 0;
-	/*transition: height 1s;*/
+	transition: height 1s;
 	
 }
  
 .synlig{
 	display:block;
-	/*visibility:visible;
-	height:100%;*/
+
 	
 }
 
 
 .usynlig{
-	display:none;
-	/*height: 0; */
+	/*display:none;*/
+	height: 0;
 }
 /*
 .link-font-style:hover{
