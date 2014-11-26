@@ -351,12 +351,13 @@ body{
 }
 
 
+
 #skjemaer img{
 	width: 50%;
 	height: auto;
 }
 
-#for-medlemmer p, li, #skjemaer, #ledertrening, #handbok{
+#for-medlemmer p, li, #skjemaer, #ledertrening{
 	font-family: "raleway", "arial"; 
 	line-height: 1.5;
 }
