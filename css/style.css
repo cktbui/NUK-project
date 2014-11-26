@@ -167,6 +167,7 @@ body{
 	padding: 2%;
 	display: inline-block;
 	margin-left:1%;
+	margin-bottom: 1em;
 }
 
 .lik-linje{ /* setter undertittel og innhold-boks på lik linje */
