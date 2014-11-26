@@ -28,18 +28,22 @@ var undermenyer =  document.getElementsByClassName("undermeny");
 var rød = document.getElementsByClassName("undertittel");
 for(var i = 0; i < undermenyer.length; i++)
 	{
-			if(undermenyer[i].className == "undermeny synlig"){
+		//	if(undermenyer[i].className == "undermeny synlig"){
 				undermenyer[i].className = "undermeny usynlig";
-				rød[i].className = "undertittel";
-			}
-			else if(rød[i].className == "undertittel Fusynlig"){
-				rød[i].className = "undertittel Fusynlig";
-			}
-			else{
-				undermenyer[i].className = "undermeny usynlig";
-				rød[i].className = "undertittel";
-			}
+				
+			//}
+			//else if(rød[i].className == "undertittel Fusynlig"){
+			//	rød[i].className = "undertittel Fusynlig";
+			//}
+			//else{
+			//	undermenyer[i].className = "undermeny usynlig";
+			//	rød[i].className = "undertittel";
+			//}
 			
+	}
+for(var i= 0; i < rød.length; i++)
+	{
+		rød[i].className = "undertittel";
 	}
 }
 
@@ -51,7 +55,7 @@ function visUndermeny(element){
 	
 	
 	var visElement = document.getElementById("undermeny_"+ id);
-
+	
 	if(visElement.className == "undermeny usynlig"){
 			visElement.className = "undermeny";
 			visElement.className = visElement.className + " synlig";
