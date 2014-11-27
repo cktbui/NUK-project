@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="no">
 	<head>
 		<title>Sekretariat - NUK</title>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="shortcut icon" href="img/nukfavicon.ico">
 		<meta charset="UTF-8">
-		<script src="Nuk.js"></script>
+		<script src="nuk.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 	</head>
 	<body onload="skjulUndermenyer()">
 
 			<header>
-				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="img/sidemenyknapp.png"/></div><div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="img/sokeknapp.png"/><div>
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+
 				<nav>
 					<a class="menybar" href="nyheter.html">NYHETER</a>
 
@@ -26,7 +29,7 @@
 
 					<a class="menybar" href="aktiviteter/sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
 
-					<a class="menybar"  href="om-nuk.html">OM NUK</a>
+					<a class="menybar"  href="om-nuk/om_nuk.html">OM NUK</a>
 
 					<a class="menybar" id="markert" href="kontakt-oss.html">KONTAKT OSS</a>
 				</nav>
@@ -66,7 +69,7 @@
 									
 									<p><b>Avdeling: </b> Sekretariatet</p>
 									<p><b>Verv: </b> Ungdomsprest(50%)</p>
-									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Akersveien,+Oslo/@59.9208387,10.7466196,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e64d788e6cb:0xfd9ba3c3a01eb43a?hl=no"> Akersveien,   60177 Oslo<a/></p>
+									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Akersveien,+Oslo/@59.9208387,10.7466196,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e64d788e6cb:0xfd9ba3c3a01eb43a?hl=no">Akersveien,   60177 Oslo</a></p>
 									<p><b>Telefon: </b><a href="tel:41817862"> 418 17 862</a></p>
 						
 									<p><b>Epost:</b><a href="ungdomsprest@nuk.no"> ungdomsprest@nuk.no</a></p>
@@ -79,14 +82,14 @@
 									<img src="img/kim-anh-le.jpg" alt="bilde av kim anhle">
 								</div>
 								<div class="sekreteriat-tekst">
-									<p><b><span id="fet-tekst">Kim Anh Le</span><br>Informasjon om vervet</b><p>
+									<p><b>Kim Anh Le<br>Informasjon om vervet</b><p>
 									
 									<p><b>Avdeling: </b> Sekretariatet</p>
 									<p><b>Verv: </b> Organisasjonskonsulent (70%)<br>organisasjonssekretær (30%)</p>
 									
 								
 
-									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Hertug+Skules+gate+2,+0652+Oslo/@59.9128764,10.7755997,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e59acc3113b:0x47294b25ee8cbb70?hl=no"> Hertug Skules Gate,  20652 Oslo<a/></p>
+									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Hertug+Skules+gate+2,+0652+Oslo/@59.9128764,10.7755997,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e59acc3113b:0x47294b25ee8cbb70?hl=no"> Hertug Skules Gate,  20652 Oslo</a></p>
 									<p><b>Telefon: </b><a href="tel:23219546"> 232 19 546</a></p>
 						
 									<p><b>Epost:</b><a href="kimanh@nuk.no"> kimanh@nuk.no</a></p>
@@ -100,13 +103,15 @@
 									<img src="img/kristina-elizabeth-voigt.jpg" alt="bilde av Kristina elizabeth voigt ">
 								</div>
 								<div class="sekreteriat-tekst">
-									<p><b><span id="fet-tekst">Kristina Elizabeth Voigt</span><br>Informasjon om vervet</b><p>
+									<p><b>Kristina Elizabeth Voigt<br>Informasjon om vervet</b><p>
 									
 									<p><b>Avdeling: </b> Sekretariatet</p>
 									<p><b>Verv: </b>Organisasjonskonsluent (80%) og<br> kontorleder</p>
 								
-									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Danmarks+gate+12B,+0658+Oslo/@59.9076697,10.7867621,17z/data=!3m1!4b1!4m2!3m1!1s0x46416eff4ad8c00d:0x95a88fc8894ba71f?hl=no"> Danmarks gate 12 B,  0658 Oslo<a/></p>
-									<p><b>Telefon: </b><a href="tel:2321 9541"> 232 19 541</a></p>
+									<p><b>Adresse:</b><br>
+									<a href="https://www.google.no/maps/place/Danmarks+gate+12B,+0658+Oslo/@59.9076697,10.7867621,17z/data=!3m1!4b1!4m2!3m1!1s0x46416eff4ad8c00d:0x95a88fc8894ba71f?hl=no"> Danmarks gate 12 B,  0658 Oslo</a></p>
+
+									<p><b>Telefon: </b><a href="tel:23219541"> 232 19 541</a></p>
 						
 									<p><b>Epost:</b><a href="kristina@nuk.no">  kristina@nuk.no</a></p>
 
@@ -118,13 +123,13 @@
 									<img src="img/svein-thomas.jpg" alt="bilde av svein thomas ">
 								</div>
 								<div class="sekreteriat-tekst">
-									<p><b><span id="fet-tekst">Svein-Thomas I. Tvedt</span><br>Informasjon om vervet</b><p>
+									<p><b>Svein-Thomas I. Tvedt<br>Informasjon om vervet</b><p>
 									
 									<p><b>Avdeling: </b> Sekretariatet</p>
 									<p><b>Verv: </b> Organisasjonssekretær (70%)</p>
 								
-									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Rudsteinveien+69,+1480+Slattum/@60.0198987,10.8997208,17z/data=!3m1!4b1!4m2!3m1!1s0x464170bce6cde6a9:0x5f88b7e2c4149140?hl=no"> Rudsteinveien 69,  1480 Slattum<a/></p>
-									<p><b>Telefon: </b><a href="tel:2321 9540 "> 232 19 540</a></p>
+									<p><b>Adresse:</b><br><a href="https://www.google.no/maps/place/Rudsteinveien+69,+1480+Slattum/@60.0198987,10.8997208,17z/data=!3m1!4b1!4m2!3m1!1s0x464170bce6cde6a9:0x5f88b7e2c4149140?hl=no"> Rudsteinveien 69,  1480 Slattum</a></p>
+									<p><b>Telefon: </b><a href="tel:23219540 "> 232 19 540</a></p>
 						
 									<p><b>Epost:</b><a href="veinthomas@nuk.no">  sveinthomas@nuk.no</a></p>
 
@@ -133,6 +138,7 @@
 							
 							
 						</ul>
+				</div>
 					
 				
 			</div>
