@@ -83,7 +83,7 @@ nav a{
 	border-right: 5em solid transparent;
 	position: relative;
 	margin-top: -1.6em;
-	border-top: 5em solid #fff/*#fc414a*/;
+	border-top: 5em solid #fff;
 	
 	padding:0;
 	display:block;
@@ -124,6 +124,10 @@ nav a{
 }
 .sokeboks input{
 	padding: 0.5em;
+}
+
+label{
+	color: #F6F6F6;;
 }
 
 button{ /* Søkeknapp */
