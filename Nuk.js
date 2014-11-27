@@ -15,7 +15,7 @@ for(var i = 0; i < undermenyer.length; i++)
 	{
 			if(undermenyer[i].className == "undermeny synlig")
 			{
-			
+				undermenyer[i].className = "undermeny usynlig";
 			}
 			else
 			{
