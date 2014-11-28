@@ -140,6 +140,7 @@ button{ /* Søkeknapp */
 	cursor: pointer;
 	padding: 0.63em;
 	vertical-align: top;
+	font-weight:700;
 	
 }
 
