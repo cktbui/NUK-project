@@ -726,9 +726,15 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
     .sokeboks form {
 	float: none;
-	width: 15em;
+	width: 100%;
 	margin:auto;
 	margin-top: 1em;
+	}
+
+	.sokeboks input{
+	padding: 0.5em;
+	float: middle;
+	width: 12em;
 	}
 
 	#main{
@@ -773,7 +779,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 		width:100%;
 		margin-left:0;
 		margin-right:0;
-		margin-top:0;
+		margin-top: 0;
 		padding:0;
 	}
 	.lik-linje{
@@ -868,13 +874,19 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 		
 	}
-	.sokeboks form{
-		float: none;
-		width:15em;
-		margin:auto;
-		margin-top: 1em;
-		
+
+	.sokeboks form {
+	float: none;
+	width: 100%;
+	margin:auto;
+	margin-top: 1em;
 	}
+
+	.sokeboks input{
+	padding: 0.5em;
+	size: 70%;
+	}
+
 
 	.menybar{
 		display: none;
