@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="no">
+	<head>
+		<title>Konfirmantpåskeleir</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="../img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="../nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="../img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+
+				<nav>
+					<a class="menybar" href="../nyheter.html">NYHETER</a>
+
+					<a class="menybar" href="../for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" href="../bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="../index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" src="../img/logo.png"/></a>
+
+					<a class="menybar" id="markert"  href="sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
+
+					<a class="menybar" href="../om-nuk/om_nuk.html">OM NUK</a>
+
+					<a class="menybar" href="../kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+			<div class="sokeboks">
+				<form name="sokeord" title = "søk">
+					<label for="sok">Søk her</label>
+						<input type="text" value="" id="sok" title="sokeord"/>		
+					<button>søk</button>
+				</form>
+			</div>
+				<div class="content lik-linje">
+					
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="../index.html">Forsiden</a></li>
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Aktiviteter</a>
+							<ul id="undermeny_1" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="sentrale-aktiviteter.html">Sentrale aktiviteter</a></li>
+								<li class="under_undertittel"><a class="link-style" href="hvordan_bruke_checkin.html">Hvordan bruke Checkin</a></li>
+								<li class="under_undertittel"><a class="link-style" href="om_mariaholm.html">Om Mariaholm</a></li>
+							</ul>
+						</li>
+						
+						<li class="undertittel" id="2" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Informasjon om leir</a>
+							<ul id="undermeny_2" class="undermeny synlig">
+								
+								<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">På- og avmeldingsregler</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reiserefusjon.html">Reiserefusjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="søskenmoderasjon.html">Søskenmoderasjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reglement_for_leir.html">Reglement for leir</a></li>
+								
+							</ul>	
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="adventaksjonen.html">Adventaksjonen</a></li>
+						
+						<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Ledertrening</a>
+							<ul id="undermeny_3" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/ledertrening.html">Om ledertrening</a></li>
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/kurs.html">De ulike kursene</a></li>
+								<!--<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">Overgangsordning</a></li>-->
+							</ul>
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="dra_på_retrett.html">Dra på retrett!</a></li>
+						
+
+						
+						<li class="undertittel"><a class="link-font-style" href="http://festival.nuk.no/">Olsokfestivalen</a></li>
+					</ul>
+				</div>
+					<div class="innhold-boks">
+					<h1 class="overskrift">Påskeleir for konfirmerte</h1>
+					<p class="texten-aktivitet">Dato: 29. mars - 5. april </p>
+					<p class="texten-aktivitet">Sted: Mariaholm</p>					
+					<object
+							data="http://www.youtube.com/v/t6_wLf38bs0">
+					</object>
+					
+						<div>TRANSCRIPT: <a href="javascript:hideshow(document.getElementById('transcript'))">Show Transcript</a></div>
+
+						<script type="text/javascript">
+						function hideshow(which){
+						if (!document.getElementById)
+						return
+						if (which.style.display=="none")
+						which.style.display="block"
+						else
+						which.style.display="none"
+						}
+						</script>
+
+						<div id="transcript">Now you see me</div>
+					</div>
+					
+				
+			</div>
+
+		
+
+
+	</body>
+
+
+</html>

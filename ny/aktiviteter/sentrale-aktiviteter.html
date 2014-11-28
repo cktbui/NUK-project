@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="no">
+	<head>
+		<title>Sentrale aktiviteter - NUK</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="../img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="../nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="../img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+
+				<nav>
+					<a class="menybar" href="../nyheter.html">NYHETER</a>
+
+					<a class="menybar" href="../for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" href="../bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="../index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" title="Til forsiden" src="../img/logo.png"/></a>
+
+					<a class="menybar" id="markert"  href="sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
+
+					<a class="menybar" href="../om-nuk/om_nuk.html">OM NUK</a>
+
+					<a class="menybar" href="../kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+			<div class="sokeboks">
+				<form name="sokeord" title = "søk">
+					<label for="sok">Søk her</label>
+						<input type="text" value="" id="sok" title="sokeord"/>		
+					<button>søk</button>
+				</form>
+			</div>
+				<div class="content lik-linje">
+					
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="../index.html">Forsiden</a></li>
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Aktiviteter</a>
+							<ul id="undermeny_1" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="sentrale-aktiviteter.html">Sentrale aktiviteter</a></li>
+								<li class="under_undertittel"><a class="link-style" href="hvordan_bruke_checkin.html">Hvordan bruke Checkin</a></li>
+								<li class="under_undertittel"><a class="link-style" href="om_mariaholm.html">Om Mariaholm</a></li>
+							</ul>
+						</li>
+						
+						<li class="undertittel" id="2" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Informasjon om leir</a>
+							<ul id="undermeny_2" class="undermeny synlig">
+								
+								<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">På- og avmeldingsregler</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reiserefusjon.html">Reiserefusjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="søskenmoderasjon.html">Søskenmoderasjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reglement_for_leir.html">Reglement for leir</a></li>
+								
+							</ul>	
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="adventaksjonen.html">Adventaksjonen</a></li>
+						
+						<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Ledertrening</a>
+							<ul id="undermeny_3" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/ledertrening.html">Om ledertrening</a></li>
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/kurs.html">De ulike kursene</a></li>
+								<!--<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">Overgangsordning</a></li>-->
+							</ul>
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="dra_på_retrett.html">Dra på retrett!</a></li>
+						
+
+						
+						<li class="undertittel"><a class="link-font-style" href="http://festival.nuk.no/">Olsokfestivalen</a></li>
+					</ul>
+				</div>
+					<div class="innhold-boks">
+					<h1 class="overskrift">Sentrale aktiviteter</h1>
+						<a href="https://www.facebook.com/adventsaksjonen?fref=ts">
+							<div class="nyheter-box">
+								<img src="../img/aa13.jpg" alt="et bilde av tre jenter med lue og jakke på, som smiler til kameraet. ">
+								<div class="caption"><p class="liten">30. november - 23. desember</p><p>Adventaksjonen</p></div>
+							</div>
+						</a>
+						<a href="http://www.katolsk.no/nyheter/2014/05/velkommen-til-familieseminar-lordag-den-6.-desember">
+							<div class="nyheter-box">
+								<img src="../img/familie.jpg" alt="et familiebilde med mor, far, og fire barn. mor til venstre, far til høyre med en liten jente på skuldrene sine, og tre barn i midten.">
+								<div class="caption"><p class="liten">6. desember </p><p>Hus på fjell - familieseminar</p></div>
+							</div>
+						</a>
+						<a href="landsstyremøte.html">
+							<div class="nyheter-box">
+								<img src="../img/ls14.jpg" alt="et bilde av fire jenter og en gutt på høyre siden.">
+								<div class="caption"><p class="liten">16. januar - 18. januar </p><p>Landsstyremøte</p></div>
+							</div>
+						</a>
+						<a href="leirsjefsamling.html">
+							<div class="nyheter-box">
+								<img src="../img/leirsjefsamling.jpg" alt="seks mennesker som sitter på en benk.">
+								<div class="caption"><p class="liten">6. februar - 8. februar </p><p>Leirsjefsamling</p></div>
+							</div>
+						</a>
+						<a href="varsamling.html">
+							<div class="nyheter-box">
+								<img src="../img/varsamling.jpg" alt="fire jenter som smiler til kameraet. et tre og vann i bakgrunnen">
+								<div class="caption"><p class="liten">20. februar - 22. februar </p><p>Vårsamling</p></div>
+							</div>
+						</a>
+						<a href="konfirmantpaskeleir.html">
+							<div class="nyheter-box">
+								<img src="../img/paskeleir.jpg" alt="gruppebilde og en kirke i bakgrunnen">
+								<div class="caption"><p class="liten">29. mars - 5. april </p><p>Konfirmantpåskeleir</p></div>
+							</div>
+						</a>
+						<a href="paskeleir_konfirmerte.html">
+							<div class="nyheter-box">
+								<img src="../img/konfirmerte.jpg" alt="gruppebilde av syv mennesker. vindu i bakgrunnen">
+								<div class="caption"><p class="liten">29. mars - 5. april </p><p>Påskeleir for konfirmerte</p></div>
+							</div>
+						</a>
+						<a href="landsstyremøte2.html">
+							<div class="nyheter-box">
+								<img src="../img/05ls.jpg" alt="mann som går med trillebår og smiler. hus og skog i bakgrunnen"/>
+								<div class="caption"><p class="liten">1. mai - 3. mai</p><p>Landsstyremøte</p></div>
+							</div>
+						</a>
+						<a href="dugnadshelg.html">
+							<div class="nyheter-box">
+								<img src="../img/dugnad.jpg" alt="">
+								<div class="caption"><p class="liten">1. mai - 3. mai</p><p>Dugnadshelg</p></div>
+							</div>
+						</a>
+						
+					</div>
+					
+				
+			</div>
+		
+
+
+	</body>
+
+
+</html>

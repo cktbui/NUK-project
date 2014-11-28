@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="no">
+	<head>
+		<title>Dra på retrett! - NUK</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="../img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="../nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="../img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+
+				<nav>
+					<a class="menybar" href="../nyheter.html">NYHETER</a>
+
+					<a class="menybar" href="../for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" href="../bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="../index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" src="../img/logo.png"/></a>
+
+					<a class="menybar" id="markert"  href="sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
+
+					<a class="menybar" href="../om-nuk/om_nuk.html">OM NUK</a>
+
+					<a class="menybar" href="../kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+			<div class="sokeboks">
+				<form name="sokeord" title = "søk">
+					<label for="sok">Søk her</label>
+						<input type="text" value="" id="sok" title="sokeord"/>		
+					<button>søk</button>
+				</form>
+			</div>
+				<div class="content lik-linje">
+					
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="../index.html">Forsiden</a></li>
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Aktiviteter</a>
+							<ul id="undermeny_1" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="sentrale-aktiviteter.html">Sentrale aktiviteter</a></li>
+								<li class="under_undertittel"><a class="link-style" href="hvordan_bruke_checkin.html">Hvordan bruke Checkin</a></li>
+								<li class="under_undertittel"><a class="link-style" href="om_mariaholm.html">Om Mariaholm</a></li>
+							</ul>
+						</li>
+						
+						<li class="undertittel" id="2" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Informasjon om leir</a>
+							<ul id="undermeny_2" class="undermeny synlig">
+								
+								<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">På- og avmeldingsregler</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reiserefusjon.html">Reiserefusjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="søskenmoderasjon.html">Søskenmoderasjon</a></li>
+								<li class="under_undertittel"><a class="link-style" href="reglement_for_leir.html">Reglement for leir</a></li>
+								
+							</ul>	
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="adventaksjonen.html">Adventaksjonen</a></li>
+						
+						<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Ledertrening</a>
+							<ul id="undermeny_3" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/ledertrening.html">Om ledertrening</a></li>
+								<li class="under_undertittel"><a class="link-style" href="../for-medlemmer/kurs.html">De ulike kursene</a></li>
+								<!--<li class="under_undertittel"><a class="link-style" href="på_og_avmeldingsregler.html">Overgangsordning</a></li>-->
+							</ul>
+						</li>
+						
+						<li class="undertittel"><a class="link-font-style" href="dra_på_retrett.html">Dra på retrett!</a></li>
+						
+						
+						<li class="undertittel"><a class="link-font-style" href="http://festival.nuk.no/">Olsokfestivalen</a></li>
+					</ul>
+				</div>
+					<div class="innhold-boks">
+						<img class="bildene" src="../for-medlemmer/retrett2.jpg" alt=""/>
+						<h1 class="overskrift">
+							Dra på retrett!
+						</h1>
+						<p class="texten">
+							Har du en hektisk hverdag, eller kanskje du er litt nysgjerrig på klosterlivet? På retrett får du en pause fra dagliglivet og du får en smakebit av hvordan livet i kloster er.
+							Det er en god idé å få med lokallaget ditt eller styret på retrett. På den måten for dere oppleve noe sammen, og styrkes i troen og fellesskapet. Det er mange klostre i Norge, så du trenger ikke dra så langt heller.  
+						</p>
+						<p class="texten">
+							Under får du informasjon om aktuelle retretter og de klostrene som pleier å invitere til retrett. Hvis du har tips om andre klostre eller retretter kan du sende det til <a href="mailto:webred@nuk.no">webred@nuk.no</a>.
+						</p>
+						
+						<div class="retrett_tag">
+							<h2>
+								Maristene på Strømmen
+							</h2>
+							<img class="retrett_bilde" src="../img/strømmen.jpg" alt=""/>
+							<p class="texten">
+								Ønsker du å sette av tid til Gud? Tid til å være tilstede for ham alene, for å lytte, for å kjenne hans råd om valg, du alt har tatt, eller om veien videre? Er det vanskelig å få fri en hel helg til å delta på retretter på Grefsen eller andre retrettsteder?
+								Dette kan være vrient for f. eks. unge foreldre eller studenter med jobb.  
+							</p>
+							<p class="texten">
+								På en <b>lørdagsretrett</b> er du innbudt til å fordype deg i bønn og slippe Herren til i ditt liv, innenfor en overkommelig ramme. 
+							</p>
+							<a href="https://sites.google.com/site/arupprechtsm/home">Se Maristpatrenes egen side for mer informasjon.</a>
+							
+						</div>
+						<div class="retrett_tag">
+							<h2>
+								Tautra Mariakloster
+							</h2>
+							<img class="retrett_bilde" src="../img/mariakloster.jpg" alt=""/>
+							<p class="texten">
+							Tautra Mariakloster er åpne for besøk og retrett. Du kan ta kontakt med klosteret for å dra på en personlig retrett. Klosteret tilbyr også forskjellige retretter og "Kom og se"-helger. 
+							</p>
+							<p class="texten">
+							 På bloggen deres for unge voksne <a href="http://www.klosterliv-monasticlife.org/">www.klosterliv-monasticlife.org</a> har de blant annet en ukentlig refleksjon over søndagens messelesninger. 
+							</p>
+						</div>
+						<div class="retrett_tag">
+							<h2>
+								Grefsen retrettsenter
+							</h2>
+							<img class="retrett_bilde" src="../img/retrettsenter.jpeg" alt=""/>
+							<p class="texten">
+								St. Josefsøstrene på Grefsen har et eget retrettsenter som de driver i samarbeid med p. Erik Ruud og p. Rory Mulligan. Begge er tidligere ungdomsprester i NUK. De inviterer til flere retretter våren 2013.
+								Det er også mulig å bare ta kontakt med søstrene hvis du ønsker å komme med besøk eller arrangere en retrett for ditt lokallag eller styre. 
+								Våren 2012 hadde f.eks. lokallaget Oslo Unge Voksne to retrettkvelder der i fastetiden og NUKs Arbeidsutvalg hadde et døgns retrett på Grefsen. 
+							</p>
+						
+						</div>
+						<div class="retrett_tag">
+							<h2>
+								Munkeby Mariakloster
+							</h2>
+							<img class="retrett_bilde" src="../img/munkeby.jpg" alt=""/>
+							<p class="texten">
+								Brødrene på Munkeby Mariakloster inviterte til sin første organiserte retrett 24.-26. februar. Klikk her for å se invitasjonen til helgen.
+							</p>
+							<p class="texten">
+								Forhåpentligvis vil brødrene invitere til en ny retrett senere, men i mellomtiden kan du ta kontakt direkte for å reise på en personlig retrett. 
+								Se deres nettsider <a href="http://www.munkeby.net/">www.munkeby.net</a> eller ta kontakt på <a href="mailto:post@munkeby.net">post@munkeby.net</a>.
+							</p>
+							<p class="texten">
+								Forhåpentligvis vil brødrene invitere til en ny retrett senere, men i mellomtiden kan du ta kontakt direkte for å reise på en personlig retrett. Se deres nettsider www.munkeby.net eller ta kontakt på post [krøll] munkeby.net.
+							</p>
+						</div>
+						
+						<div class="retrett_tag">
+							<h2>
+								St. Elisabethsøstrene
+							</h2>
+							<img class="retrett_bilde" src="../img/elisabethsøstrene.jpg" alt=""/>
+							<p class="texten">
+								St. Elisabethsøstrene på Nordstrand i Oslo inviterer ofte til kallshelger, retretter og arrangementer for jenter og unge kvinner. 
+								Følg med på deres nettsider <a href="http://www.stelisabeth.info/">http://stelisabeth.katolsk.no/</a> for deres neste arrangement. 
+							</p>
+							
+						</div>
+					</div>
+				
+			</div>
+		
+
+
+	</body>
+
+
+</html>

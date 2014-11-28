@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="no">
+	<head>
+		<title>Bli medlem! - NUK</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+			
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+				
+				<nav>
+					<a class="menybar" href="nyheter.html">NYHETER</a>
+
+					<a class="menybar" href="for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" id="markert" href="bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" src="img/logo.png"/></a>
+
+					<a class="menybar" href="aktiviteter/sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
+
+					<a class="menybar" href="om-nuk/om_nuk.html">OM NUK</a>
+
+					<a class="menybar" href="kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+			<div class="sokeboks">
+				<form name="sokeord" title = "søk">
+						<label for="sok">Søk her</label>
+							<input type="text" value="" id="sok" title="sokeord"/>		
+						<button>søk</button>
+					</form>
+			</div>
+				<div class="content lik-linje">
+					
+					<ul class="under-nav" id="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="index.html">Forsiden</a></li>
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Bli medlem</a>
+							<ul id="undermeny_1" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="bli-medlem/bli_medlem.html">Enkeltmedlem</a></li>
+								<li class="under_undertittel"><a class="link-style" href="bli-medlem/støttemedlem.html">Støttemedlem</a></li>
+								<li class="under_undertittel"><a class="link-style" href="bli-medlem/familiemedlemsskap.html">Familiemedlemsskap</a></li>
+								<li class="under_undertittel"><a class="link-style" href="bli-medlem/katekseinnmelding.html">Katekeseinnmelding</a></li>
+								<li class="under_undertittel"><a class="link-style" href="bli-medlem/listeinnmelding.html">Listeinnmelding</a></li>
+							</ul>
+						</li>
+									
+						<li class="undertittel"><a class="link-font-style" href="bli-medlem/adresseendring.html">Adresseendring</a></li>
+					</ul>
+					
+				</div>
+
+				<div class="innhold-boks">
+
+					<h1 class="overskrift">Slik blir du medlem i NUK!</h1>
+					<img class="bildene" src="img/nuk_banner.jpg" alt="Rødt banner med hvit logo og hvit skrift som sier: Bli medlem av norges unge katolikker."/>
+					<ol>
+					<li><a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dE5KLWhWcWFSX0c0UUpsVjdIWl96aFE6MQ" target="_blank">TRYKK HER</a> for å registrere deg som nytt medlem</li>
+					<li> Når du har registrert deg kan du enten få tilsendt giro for medlemskontingenten på epost eler i posten. Du kan også betale medlemskontingenten direkte i nettbank.</li>
+					<li>Så fort du har betalt medlemskontingenten er du offisielt medlem av NUK og får tilsendt en medlemspakke i posten!</li>
+					</ol>
+					
+					<h2 class="overskrift">Medlemskontingenten</h2>
+					<p class="texten">
+						Medlemsskapet ditt i NUK må fornyes hvert år ved at du betaler medlemskontingenten din. Medlemsskapet gjelder for kalenderåret.
+					<p>
+					
+					<p class="texten bold">
+						Enkeltmedlem 0-25 år: 100 kr.   
+					<p>
+					<p class="texten bold">
+						Enkeltmedlem 26-36 år: 200 kr.   
+					<p>
+					<p class="texten">
+						<b>Støttemedlem: 300 kr. </b> <br>(For deg over 35 år)  
+					<p>
+					<p class="texten">
+						<b>Husstandsmedlemskap: 300 kr. </b> <br>(Gjelder kun for de i husstanden under 35 år)  
+					<p>
+					
+					
+
+					
+
+					
+				</div>
+					
+				
+			</div>
+		
+
+
+	</body>
+
+
+</html>

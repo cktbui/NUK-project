@@ -1,0 +1,295 @@
+nav{
+/* Navigation bar */
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+
+	padding: 1em 0;
+
+	vertical-align: top;
+	background: white;
+}
+
+
+nav a{
+	width: 13%;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-family: raleway, arial;
+}
+.titler{
+	width: 30%;
+	display: inline-block;
+	color: black;
+	font-family: raleway, arial;
+	font-size: 1.2em;
+
+}
+
+.logo{
+	height: 6.001em;
+	width: 4.5em;
+	position: absolute;
+	left:0;
+	top:-0.2%;
+	right:0;
+	margin-top: 1%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 3;
+}
+#second-menu{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	display: none;
+	z-index: 10;
+}
+
+#logo-nede{
+	width:3.5em;
+	height: auto;
+	top:-0.5em;
+}
+/*
+.triangle-main{
+	margin-top: -3em;
+	position: relative;
+}*/
+
+header{
+	background-color: #fff/*#fc414a*/;
+}
+#triangle{ /* Forerste trekant under logo */
+	width: 0; 
+	height: 0; 
+	border-left: 5em solid transparent;
+	border-right: 5em solid transparent;
+	position: relative;
+	margin-top: -1.6em;
+	border-top: 5em solid #fff/*#fc414a*/;
+	
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 2;
+}
+#triangle1{ /* Forerste trekant under logo */
+	width: 0; 
+	height: 0; 
+	border-left: 5em solid transparent;
+	border-right: 5em solid transparent;
+	position: relative;
+	margin-top: -1.6em;
+	border-top: 5em solid #fff/*#fc414a*/;
+	
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 2;
+}
+#triangle-small{
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	position: relative;
+	margin-top: 1em;
+	border-top: 1em solid #F6F6F6;
+	
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 2;
+}
+#triangle-large{ /* Bakerste trekant under logo */
+	width: 0; 
+	height: 0; 
+	border-left: 2em solid transparent;
+	border-right: 2em solid transparent;
+	
+	border-top: 2em solid #919999;
+	margin-top: -1em;
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: -1.5em;
+	z-index: 1;
+	
+}
+
+.arrow-link{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:5em;
+}
+
+body{
+	background-color: #F6F6F6;
+	margin: 0;
+
+}
+.main{
+	margin: 0 auto;
+	width: 95%;
+	height: auto;
+	margin-bottom: 5em;
+
+
+}
+
+.top-box {
+	width: 100%;
+}
+
+
+.nyheter-main{
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+
+
+
+.box{
+	background:#A80000;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+	width: 31%;
+	margin: 1%;
+	padding-top:6%;
+	padding-bottom: 6%; 
+	padding-left: 0%;
+	padding-right: 0%;
+	
+}
+
+a{
+	font-family: raleway, arial; 
+	color: white; 
+	text-decoration: none;
+}
+.nyheter-box{
+	background:#A80000;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	width: 31%;
+	margin: 1%;
+	padding: 0;
+	height: 11em;
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+
+}
+.nyheter-box .caption{
+	position: absolute; 
+	width: 100%; 
+	height: auto; 
+	bottom: 0; left: 0;
+	color: #fff; 
+	background: black; 
+	text-align:center; 
+	opacity: 0.7;
+}
+
+.nyheter-box .caption p{
+	margin: 0;
+	padding: 0.5em;
+}
+
+.nyheter-box img{
+	width: 104%;
+	height: auto;
+
+}
+.mer-nyheter-knapp{
+	float: right;
+	
+
+	
+}
+
+@media all and (max-width: 480px) {
+	.box{
+		width:100%;
+		padding-bottom:2%;
+		padding-top: 2%;
+	}
+	.titler{
+		font-size: 0.7em;
+		text-align:center;
+		
+	}
+	.nyheter-box{
+		width:100%;
+	}
+	
+	#second-menu nav{
+		display: none;
+	}
+	
+	#triangle1{
+		display:none;
+	}
+  
+}
+
+@media all and (max-width: 668px) and (min-width: 481px){
+	.box{
+		width: 47%;
+		font-size: 1.2em;
+	}
+	.nyheter-box{
+		width:100%;
+	}
+	#second-menu nav{
+		display: none;
+	}
+	
+	#triangle1{
+		display:none;
+	}
+}
+@media all and (max-width: 846px) and (min-width: 669px){
+	.box{
+		width: 30%;
+		font-size: 1.2em;
+	}
+	.nyheter-box{
+		width:40%;
+		height:9em;
+		font-size: 1em;
+	}
+
+}
+@media all and (max-width: 963px) and (min-width: 847px){	
+	.box{
+		width: 30%;
+		font-size: 1.67em;
+	
+	}
+	.nyheter-box{
+		width:30%;
+		height:9em;
+		font-size: 1.4em;
+		
+	}
+}
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="no">
+	<head>
+		<title>De ulike kursene - NUK</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="../img/nukfavicon.ico">
+		<meta charset="UTF-8">
+		<script src="../nuk.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+	<body onload="skjulUndermenyer()">
+
+			<header>
+			
+				<div class="venstre" onclick="visMeny()" ><img id="sidebilde" src="../img/sidemenyknapp.png" alt="Tre røde streker" title="Meny"/></div>
+
+				<div class="hogre" onclick="visSokeboks()" ><img id="sidebilde-hogre" src="../img/sokeknapp.png" alt="Forstørrelsesglass" title="Søk"/></div>
+				<nav>
+					<a class="menybar" href="../nyheter.html">NYHETER</a>
+
+					<a class="menybar" id="markert" href="../for-medlemmer.html">FOR MEDLEMMER</a>
+
+					<a class="menybar" href="../bli-medlem.html">BLI MEDLEM</a>
+
+					<a href="../index.html"><img class="logo" alt="Logoen til NUK. Det er et hjerte med et kors på toppen" src="../img/logo.png"/></a>
+
+					<a class="menybar" href="../aktiviteter/sentrale-aktiviteter.html">VÅRE AKTIVITETER</a>
+
+				<a class="menybar" href="../om-nuk/om_nuk.html">OM NUK</a>
+
+					<a class="menybar" href="../kontakt-oss.html">KONTAKT OSS</a>
+				</nav>
+			</header>
+			<!--<div id="triangle-large"></div>-->
+			<div id="triangle"></div>
+
+			<div id="main">
+				
+				<div class="sokeboks">
+					<form name="sokeord" title = "søk">
+						<label for="sok">Søk her</label>
+						<input type="text" value="" id="sok" title="sokeord"/>		
+						<button>søk</button>
+					</form>
+				</div>
+
+				<div class="content lik-linje">
+					
+
+					<ul class="under-nav" id ="sidemeny">
+						<li class="undertittel usynlig" id="FORSIDEN"><a class="link-font-style" href="../index.html">Forsiden</a></li>
+
+					
+
+
+						<li class="undertittel"><a class="link-font-style" href="aktuelt.html">Nyeste oppdateringer</a></li>
+					
+						<li class="undertittel"  id="1" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Ledertrening</a>
+							<ul id="undermeny_1" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="ledertrening.html">Om ledertrening</a></li>
+								<li class="under_undertittel"><a class="link-style" href="kurs.html">De ulike kursene</a></li>
+							</ul>
+						</li>
+
+						<li class="undertittel" id="2" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Nyttig for lokallag</a>
+							<ul id="undermeny_2" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="frifond.html">Frifond</a></li>
+								<li class="under_undertittel"><a class="link-style" href="skjemaer.html">Skjemaer</a></li>
+								<li class="under_undertittel"><a class="link-style" href="handbok.html">Håndbøker</a></li>
+								<li class="under_undertittel"><a class="link-style" href="verve.html">Vervemateriale</a></li>
+							</ul>
+						</li>
+						
+						<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Nyttig for leir</a>
+							<ul id="undermeny_3" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="leirhandbok.html">Leirhåndboka</a></li>
+								<!--<li class="under_undertittel"><a class="link-style" href="forstehjelp-mat.html">Førstehjelp og mat</a></li>-->								
+								<li class="under_undertittel"><a class="link-style" href="leirskjemaer.html">Skjemaer og maler</a></li>
+							</ul>
+						</li>
+						
+						
+						<!-- <li class="undertittel"><a class="link-font-style" href="">Nyttige lenker</a></li> -->
+							
+						<!--<li class="undertittel"><a class="link-font-style" href="">Bladene</a></li>-->
+
+							<!--<li class="undertittel" id="3" onclick="visUndermeny(this)"><a class="link-font-style" href="#">Arkiv</a>
+							<ul id="undermeny_2" class="undermeny synlig">
+								<li class="under_undertittel"><a class="link-style" href="#">Dokumenter</a></li>
+								<li class="under_undertittel"><a class="link-style" href="#">NUK-nytt</a></li>
+							</ul>
+						</li>-->
+
+					</ul>
+				</div>
+
+				<div class="innhold-boks" id= "kurs">
+
+					<article class="overskrift">
+
+						<h1>De ulike kursene i ledertrening</h1>
+
+						<img src="landsmøte2014-55.jpg" alt="Fem ungdommer som sitter rundt et bord med et ark og snakker sammen."/>
+
+						<p></p>
+
+						<h2>Kurs 1: Intro</h2>
+						
+						<p>En introduksjon til ledertreningen i NUK. En ny erfaring av troen, gjennom samtale, spørsmål og svar. En opplevelse av fellesskapet gjennom arbeid mot et felles mål.</p>
+
+						<p>Et kurs som utfordrer deg. Et kurs hvor vil oppleve godt fellesskap, nye venner og morsomme ting.</p>
+						
+
+						<h2>Kurs 2: Bibelen</h2>
+						<p>En introduksjon til Bibelen. Få overblikket. Forstå hvorfor og hvordan den ble skrevet.</p>
+						<p>Et kurs hvor du får være med "å skrape i overflaten", hvor du får lære om forskjellen på intelligens og visdom og hvor du finner ut mer om Guds åpenbaring og frelsesplan.</p>
+						
+
+						<h2>Kurs 3: Kirken</h2>
+						
+						<p>Trenger vi Kirken for å være kristne? Hva er Kirken og hva gjør Kirken? Hvem er Kirken? Har Kirken noe å si for meg i mitt liv? Er det rom i Kirken for at jeg kan tenke selv?</p>
+						<p>Et kurs som søker å skjerpe bevisstheten omkring Kirkens vesen og liv slik at både spørsmålene og svarene blir mer relevante, og slik at kirketilhørigheten og kjærligheten til Kirken blir viktig og levende i mitt liv.</p>
+
+						<h2>Kurs 4: Samarbeid og ledelse</h2>
+						
+						<p>Jeg - og vi. Hva er poenget med å samarbeide? Jeg - en leder?!</p>
+						<p>Et kurs som vil gi deg kompetanse og redskaper til å være leder i menighetens ungdomsarbeid. Et kurs som vil gi deg nye tanker om deg selv i en gruppe. Et kurs som gir deg nyttige erfaringer om samarbeid mellom mennesker. Et kurs hvor du vil lære mer om å drive et lokallag i NUK.</p>
+
+						<h3>Praksis i menigheten</h3>
+						<p>Som en del av ledertreningsopplegget i NUK inngår en praksis i din egen menighet. Dette vil avtales individuelt med hver enkelt deltaker og deres menighet. Du vil få mer informasjon om dette når du deltar på kurs på Høstsamling og Vårsamling. Oppgaver som kan være aktuelle, er: oppgaver i barne- og ungdomsarbeid, assistent i katekesen, hjelpe til med kirkekaffe, hjelpe til med Evangelieforklaring, lesninger under Messen o.a.</p>
+
+						<h3>Adventsaksjonen</h3>
+						<p>Adventsaksjonen er NUKs årlige samarbeidsaksjon med Caritas Norge, og vår årlige innsats for rettferdighet i verden. Som katolikker er vi forpliktet til å være på de fattiges side, og vi er forpliktet til bry oss om vår neste. Derfor er deltakelse i Adventsaksjonen i din egen menighet en naturlig del av ledertreningen i NUK. Du vil få mer informasjon om dette når du deltar på kurs på Høstsamling og Vårsamling.</p>
+
+
+										
+
+
+					</article>
+
+				</div>
+					
+				
+			</div>
+		
+
+
+	</body>
+
+
+</html>
