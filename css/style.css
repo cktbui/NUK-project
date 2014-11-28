@@ -110,6 +110,7 @@ nav a{
 {
 	display:none;
 }
+/* Dette tilhører søkeboksen alle siden som har søkebok */
 .sokeboks {
 	height: 2em;
 	display:block;
@@ -214,9 +215,7 @@ object{
 	background-color: #A80000;
 	
 }
-/*.undertittel:hover .undermeny{
-	display: block;
-}*/
+
 .undertittel:hover .link-font-style, .active .link-font-style{
 	color:white;
 }
@@ -423,15 +422,9 @@ object{
 .sokefelt{
 }
 
-/*
 
-
-
-
-*/
 
 .nyheter-box{/*nyhet bokser  */
-	/*background:#A80000;*/
 	background: #F6F6F6;
 	display: inline-block;
 	text-align: center;
@@ -471,7 +464,7 @@ object{
 
 }
 
-/*det er der det står nyhetsartikklene med  bilde og tekskt⇓⇓ */
+/*Det er der det står nyhetsartikklene med  bilde og tekskt⇓⇓ */
  
 .nyheter-box img{/*nyhetboksene sin bilder tag*/
 	width: 100%;	
@@ -484,8 +477,7 @@ object{
 	width: 100%;
 
 }
-.nyhetstekst p{
-	/*border: 2px solid red;*/
+.nyhetstekst p{/*nyhetssidens p tager */
 	font-family: "raleway", "arial"; 
 	font-size: 1.2em;
 	line-height: 1.5;
@@ -524,10 +516,7 @@ a{
 	width:100%;
 	display:block;
 	height: auto;
-	/*
-	margin-left:auto;
-	margin-right:auto;
-	*/
+	
 }
 .retrett_bilde{
 	float:right;
@@ -588,7 +577,7 @@ table{
 
 
 
-/*kontakt oss siden */
+/* ting som tilhører kontakt oss siden */
 .kontakt-oss-innhold{
 	font-family: "raleway", "arial";
 	text-decoration: none;
@@ -618,7 +607,7 @@ table{
 
 }
 
-.sosial-media img{
+.sosial-media img{/* facebook og instagram logo */
 	float: right;
 	margin-top: 2.1em;
 	margin-left: 1em;
@@ -626,9 +615,6 @@ table{
 	width: 8.1%;
 }
 
-a:visited{/*for linkene på kontakt oss siden*/
-	/*color:black;*/
-}
 
 .sekreteriat{
 	list-style-type: none;
@@ -638,8 +624,6 @@ a:visited{/*for linkene på kontakt oss siden*/
 	margin-top: 1.5em;
 	margin-bottom: 4em;
 }
-
-
 
 .sekreteriat-list{
 	overflow: hidden;
@@ -685,7 +669,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 
 
-	/* Mobilversjon!*/
+	/* Mobilversjon for mobiler som har små skjerm til max størrelsen 412px */
 @media all and (max-width: 412px){
 	.sekreteriat-bilde, .sekreteriat-tekst{
 		width:68%;
@@ -698,7 +682,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 
 
 }	
-
+/*Mobilversjon for mobiler med størrelsen fra det minste størrelsen  til max størrelsen 480px*/
 @media all and (max-width: 480px){
 	#nyhetersok form{
 		padding-right:0em;
@@ -854,7 +838,8 @@ a:visited{/*for linkene på kontakt oss siden*/
 	}
 }
 
-	/*Nettbrett versjon*/
+	/*Nettbrett versjon for både ipad og datamaskiner med ulike skjerm størrelser.
+	 Det går fra minste nettbrett til større og større nettbretter */
 @media all and (max-width: 668px) and (min-width: 481px){
 	
 	#FORSIDEN{
@@ -1004,6 +989,24 @@ a:visited{/*for linkene på kontakt oss siden*/
 	
 }
 
+@media all and (max-width: 668px) and (min-width: 536px){
+		
+	.ledertrening p{
+		font-size:1.5em;
+	}
+	.retrett p{
+		font-size:1.5em;
+		color: black;
+		padding-top: 1.2em;
+	}
+	
+	.kontakt-oss-bilde{
+		padding-top: 0.8em;
+		padding-right: 0.8em;
+	}
+
+}
+
 @media all and (max-width: 860px) and (min-width: 669px){
 	.sosial-media img{
 		margin-right:1em;
@@ -1092,23 +1095,7 @@ a:visited{/*for linkene på kontakt oss siden*/
 	
 }
 
-@media all and (max-width: 668px) and (min-width: 536px){
-		
-	.ledertrening p{
-		font-size:1.5em;
-	}
-	.retrett p{
-		font-size:1.5em;
-		color: black;
-		padding-top: 1.2em;
-	}
-	
-	.kontakt-oss-bilde{
-		padding-top: 0.8em;
-		padding-right: 0.8em;
-	}
 
-}
 @media all and (max-width: 1220px) and (min-width: 1081px){
 	.nyheter-box{
 		width:31%;
