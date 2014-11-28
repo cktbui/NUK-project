@@ -128,7 +128,9 @@ nav a{
 }
 
 label{
-	color: #F1F1F1;;
+	color: #F1F1F1;
+	visibility: hidden;
+	font-family: "raleway", "arial";
 }
 
 button{ /* Søkeknapp */
