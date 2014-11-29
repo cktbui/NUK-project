@@ -126,9 +126,15 @@ header{
 	margin-right:auto;
 	margin-bottom: -1.5em;
 	z-index: 1;
+	transition: border-top-color 2s;
 	
 }
-
+#triangle-large:hover{
+	border-top-color: #000;
+}
+.arrow-link:hover #triangle-large{
+	border-top-color: #000;
+}
 .arrow-link{
 	display: block;
 	margin-left:auto;
