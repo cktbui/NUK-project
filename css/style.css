@@ -21,6 +21,10 @@ nav{
 	display: none;
 
 }
+footer{
+	text-align:center;
+	margin-bottom:2em;
+}
 #sidebilde{
 	display: none;
 	height: 0em;
